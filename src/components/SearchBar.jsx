@@ -48,9 +48,9 @@ const SearchBar = ({ onSelectFood }) => {
     };
 
     const getScoreColor = (score) => {
-        if (score >= 70) return '#00ff88';
-        if (score >= 40) return '#ff6b35';
-        return '#ff006e';
+        if (score >= 70) return 'var(--success)';
+        if (score >= 40) return 'var(--warning)';
+        return 'var(--danger)';
     };
 
     return (
@@ -61,13 +61,15 @@ const SearchBar = ({ onSelectFood }) => {
             zIndex: 10
         }}>
             <div className="glass-card" style={{
-                padding: '0.75rem 1.5rem',
+                padding: '1rem 1.5rem',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '1rem',
-                transition: 'all 0.3s ease'
+                transition: 'all 0.3s ease',
+                background: 'white',
+                border: '1px solid #E5E7EB'
             }}>
-                <Search size={24} style={{ color: '#667eea', flexShrink: 0 }} />
+                <Search size={24} style={{ color: 'var(--primary-green)', flexShrink: 0 }} />
                 <input
                     type="text"
                     value={query}
@@ -77,18 +79,18 @@ const SearchBar = ({ onSelectFood }) => {
                         background: 'transparent',
                         border: 'none',
                         outline: 'none',
-                        color: '#ffffff',
+                        color: 'var(--text-primary)',
                         fontSize: '1.1rem',
                         width: '100%',
-                        fontFamily: 'Inter, sans-serif',
-                        fontWeight: '500'
+                        fontFamily: 'Lato, sans-serif',
+                        fontWeight: '400'
                     }}
                 />
                 {query && (
                     <button
                         onClick={clearSearch}
                         style={{
-                            background: 'rgba(255, 0, 110, 0.15)',
+                            background: '#FEE2E2',
                             border: 'none',
                             borderRadius: '8px',
                             padding: '0.5rem',
@@ -99,10 +101,10 @@ const SearchBar = ({ onSelectFood }) => {
                             transition: 'all 0.2s ease',
                             flexShrink: 0
                         }}
-                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 0, 110, 0.25)'}
-                        onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(255, 0, 110, 0.15)'}
+                        onMouseEnter={(e) => e.currentTarget.style.background = '#FECACA'}
+                        onMouseLeave={(e) => e.currentTarget.style.background = '#FEE2E2'}
                     >
-                        <X size={20} style={{ color: '#ff006e' }} />
+                        <X size={20} style={{ color: 'var(--danger)' }} />
                     </button>
                 )}
             </div>
@@ -116,7 +118,9 @@ const SearchBar = ({ onSelectFood }) => {
                     maxHeight: '400px',
                     overflowY: 'auto',
                     padding: '0.5rem',
-                    zIndex: 50
+                    zIndex: 50,
+                    background: 'white',
+                    border: '1px solid #E5E7EB'
                 }}>
                     {suggestions.map((food, index) => (
                         <div
@@ -134,7 +138,7 @@ const SearchBar = ({ onSelectFood }) => {
                                 background: 'transparent'
                             }}
                             onMouseEnter={(e) => {
-                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)';
+                                e.currentTarget.style.background = '#F9FAFB';
                                 e.currentTarget.style.transform = 'translateX(4px)';
                             }}
                             onMouseLeave={(e) => {
@@ -145,7 +149,7 @@ const SearchBar = ({ onSelectFood }) => {
                             <div style={{ flex: 1 }}>
                                 <div style={{
                                     fontWeight: '600',
-                                    color: '#ffffff',
+                                    color: 'var(--primary-dark)',
                                     marginBottom: '0.25rem',
                                     fontSize: '1rem'
                                 }}>
@@ -153,13 +157,13 @@ const SearchBar = ({ onSelectFood }) => {
                                 </div>
                                 <div style={{
                                     fontSize: '0.875rem',
-                                    color: '#a0aec0',
+                                    color: 'var(--text-secondary)',
                                     display: 'flex',
                                     alignItems: 'center',
                                     gap: '0.5rem'
                                 }}>
                                     <span>{food.calories} cal</span>
-                                    <span style={{ color: '#718096' }}>•</span>
+                                    <span style={{ color: 'var(--text-muted)' }}>•</span>
                                     <span>{food.servingSize}</span>
                                 </div>
                             </div>
@@ -171,12 +175,12 @@ const SearchBar = ({ onSelectFood }) => {
                                 <div style={{
                                     padding: '0.5rem 0.75rem',
                                     borderRadius: '8px',
-                                    background: `${getScoreColor(food.fitnessScore)}15`,
-                                    border: `1px solid ${getScoreColor(food.fitnessScore)}40`,
+                                    background: food.fitnessScore >= 70 ? '#E6F4EA' : food.fitnessScore >= 40 ? '#FEF3C7' : '#FEE2E2',
+                                    border: 'none',
                                     color: getScoreColor(food.fitnessScore),
                                     fontWeight: '700',
                                     fontSize: '0.95rem',
-                                    fontFamily: 'Poppins, sans-serif'
+                                    fontFamily: 'Lato, sans-serif'
                                 }}>
                                     {food.fitnessScore}
                                 </div>
