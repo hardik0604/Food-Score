@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './components/SearchBar';
 import NutritionCard from './components/NutritionCard';
-import { Activity, TrendingUp, Zap } from 'lucide-react';
+import { Activity, TrendingUp, Zap, Home } from 'lucide-react';
 
 function App() {
   const [selectedFood, setSelectedFood] = useState(null);
   const [foodDatabase, setFoodDatabase] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [searchKey, setSearchKey] = useState(0);
 
   useEffect(() => {
     const fetchFoodData = async () => {
@@ -28,6 +29,11 @@ function App() {
 
     fetchFoodData();
   }, []);
+
+  const goHome = () => {
+    setSelectedFood(null);
+    setSearchKey(prev => prev + 1);
+  };
 
   if (loading) {
     return (
@@ -62,14 +68,53 @@ function App() {
   }
 
   return (
-    <div style={{ minHeight: '100vh' }}>
-      <header style={{ textAlign: 'center', marginBottom: '4rem' }}>
+    <div style={{ minHeight: '100vh', position: 'relative' }}>
+      <button
+        onClick={goHome}
+        style={{
+          position: 'absolute',
+          top: '1.5rem',
+          left: '1.5rem',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          padding: '0.75rem 1.25rem',
+          background: 'white',
+          border: '1px solid #E5E7EB',
+          borderRadius: '12px',
+          cursor: 'pointer',
+          color: 'var(--text-secondary)',
+          fontWeight: '600',
+          boxShadow: 'var(--shadow-sm)',
+          zIndex: 50,
+          transition: 'all 0.2s ease'
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = 'translateY(-2px)';
+          e.currentTarget.style.boxShadow = 'var(--shadow-md)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = 'translateY(0)';
+          e.currentTarget.style.boxShadow = 'var(--shadow-sm)';
+        }}
+      >
+        <Home size={20} />
+        Home
+      </button>
+
+      <header style={{ textAlign: 'center', marginBottom: '4rem', paddingTop: '4rem' }}>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
           <Activity size={40} style={{ color: 'var(--primary-green)' }} />
           <div style={{ width: '1px', height: '24px', background: '#E5E7EB' }}></div>
           <Zap size={32} style={{ color: 'var(--accent-terracotta)' }} />
         </div>
-        <h1 className="animate-fade-in">FitScore India</h1>
+        <h1
+          className="animate-fade-in"
+          onClick={goHome}
+          style={{ cursor: 'pointer' }}
+        >
+          FitScore India
+        </h1>
         <p className="animate-fade-in" style={{
           maxWidth: '600px',
           margin: '0 auto',
@@ -101,7 +146,7 @@ function App() {
         </div>
       </header>
 
-      <SearchBar onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
+      <SearchBar key={searchKey} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
 
       {selectedFood ? (
         <NutritionCard food={selectedFood} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
