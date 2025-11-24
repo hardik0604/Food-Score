@@ -1,10 +1,65 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import SearchBar from './components/SearchBar';
 import NutritionCard from './components/NutritionCard';
 import { Activity, TrendingUp, Zap } from 'lucide-react';
 
 function App() {
   const [selectedFood, setSelectedFood] = useState(null);
+  const [foodDatabase, setFoodDatabase] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchFoodData = async () => {
+      try {
+        const response = await fetch(import.meta.env.BASE_URL + 'api/foods.json');
+        if (!response.ok) {
+          throw new Error('Failed to fetch food data');
+        }
+        const data = await response.json();
+        setFoodDatabase(data.data);
+        setLoading(false);
+      } catch (err) {
+        console.error('Error loading food data:', err);
+        setError(err.message);
+        setLoading(false);
+      }
+    };
+
+    fetchFoodData();
+  }, []);
+
+  if (loading) {
+    return (
+      <div style={{
+        minHeight: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        gap: '1rem'
+      }}>
+        <div className="spinner-border text-primary" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+        <p style={{ color: 'var(--text-secondary)' }}>Loading food database...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div style={{
+        minHeight: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: 'var(--danger)'
+      }}>
+        <p>Error: {error}</p>
+      </div>
+    );
+  }
 
   return (
     <div style={{ minHeight: '100vh' }}>
@@ -33,7 +88,7 @@ function App() {
         }}>
           <div className="badge badge-success">
             <TrendingUp size={16} />
-            200+ Foods
+            {foodDatabase.length}+ Foods
           </div>
           <div className="badge" style={{
             background: 'var(--bg-subtle)',
@@ -46,10 +101,10 @@ function App() {
         </div>
       </header>
 
-      <SearchBar onSelectFood={setSelectedFood} />
+      <SearchBar onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
 
       {selectedFood ? (
-        <NutritionCard food={selectedFood} onSelectFood={setSelectedFood} />
+        <NutritionCard food={selectedFood} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
       ) : (
         <div className="glass-card animate-fade-in" style={{
           textAlign: 'center',
@@ -95,7 +150,9 @@ function App() {
                   boxShadow: '0 1px 2px rgba(0,0,0,0.05)'
                 }}
                 onClick={() => {
-                  // This would trigger search - for now just visual
+                  // Find the food item in the database
+                  const food = foodDatabase.find(f => f.name.toLowerCase().includes(item.toLowerCase()));
+                  if (food) setSelectedFood(food);
                 }}
               >
                 {item}

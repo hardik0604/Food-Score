@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Search, X, TrendingUp } from 'lucide-react';
-import { foodDatabase } from '../data/foodDatabase';
 
-const SearchBar = ({ onSelectFood }) => {
+const SearchBar = ({ onSelectFood, foodDatabase }) => {
     const [query, setQuery] = useState('');
     const [suggestions, setSuggestions] = useState([]);
     const [isOpen, setIsOpen] = useState(false);

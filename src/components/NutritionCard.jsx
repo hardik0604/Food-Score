@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Activity, AlertTriangle, CheckCircle, ThumbsDown, ThumbsUp, Flame, Zap, TrendingUp, Award, Target, ArrowRight, X } from 'lucide-react';
-import { foodDatabase } from '../data/foodDatabase';
 
-const NutritionCard = ({ food, onSelectFood }) => {
+const NutritionCard = ({ food, onSelectFood, foodDatabase }) => {
     const [comparisonFood, setComparisonFood] = useState(null);
 
     if (!food) return null;
