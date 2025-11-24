@@ -68,155 +68,218 @@ function App() {
   }
 
   return (
-    <div style={{ minHeight: '100vh', position: 'relative' }}>
-      <button
-        onClick={goHome}
-        style={{
-          position: 'absolute',
-          top: '1.5rem',
-          left: '1.5rem',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '0.5rem',
-          padding: '0.75rem 1.25rem',
-          background: 'white',
-          border: '1px solid #E5E7EB',
-          borderRadius: '12px',
-          cursor: 'pointer',
-          color: 'var(--text-secondary)',
-          fontWeight: '600',
-          boxShadow: 'var(--shadow-sm)',
-          zIndex: 50,
-          transition: 'all 0.2s ease'
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.transform = 'translateY(-2px)';
-          e.currentTarget.style.boxShadow = 'var(--shadow-md)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.transform = 'translateY(0)';
-          e.currentTarget.style.boxShadow = 'var(--shadow-sm)';
-        }}
-      >
-        <Home size={20} />
-        Home
-      </button>
-
-      <header style={{ textAlign: 'center', marginBottom: '4rem', paddingTop: '4rem' }}>
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
-          <Activity size={40} style={{ color: 'var(--primary-green)' }} />
-          <div style={{ width: '1px', height: '24px', background: '#E5E7EB' }}></div>
-          <Zap size={32} style={{ color: 'var(--accent-terracotta)' }} />
-        </div>
-        <h1
-          className="animate-fade-in"
+    <div style={{ minHeight: '100vh', paddingTop: '80px', background: '#FAFAFA' }}>
+      {/* Navigation Bar */}
+      <nav style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        height: '70px',
+        background: 'rgba(255, 255, 255, 0.9)',
+        backdropFilter: 'blur(10px)',
+        borderBottom: '1px solid #E5E7EB',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: '0 2rem',
+        zIndex: 100,
+        boxShadow: '0 1px 2px rgba(0,0,0,0.02)'
+      }}>
+        <div
           onClick={goHome}
-          style={{ cursor: 'pointer' }}
-        >
-          FitScore India
-        </h1>
-        <p className="animate-fade-in" style={{
-          maxWidth: '600px',
-          margin: '0 auto',
-          fontSize: '1.25rem',
-          color: 'var(--text-secondary)',
-          fontWeight: '400'
-        }}>
-          Discover the nutritional truth about Indian foods. Make informed choices for a healthier you.
-        </p>
-        <div style={{
-          display: 'flex',
-          gap: '1rem',
-          justifyContent: 'center',
-          marginTop: '2rem',
-          flexWrap: 'wrap'
-        }}>
-          <div className="badge badge-success">
-            <TrendingUp size={16} />
-            {foodDatabase.length}+ Foods
-          </div>
-          <div className="badge" style={{
-            background: 'var(--bg-subtle)',
-            color: 'var(--primary-dark)',
-            border: '1px solid rgba(0,0,0,0.05)'
-          }}>
-            <Activity size={16} />
-            Fitness Scores
-          </div>
-        </div>
-      </header>
-
-      <SearchBar key={searchKey} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
-
-      {selectedFood ? (
-        <NutritionCard food={selectedFood} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
-      ) : (
-        <div className="glass-card animate-fade-in" style={{
-          textAlign: 'center',
-          maxWidth: '800px',
-          margin: '0 auto',
-          background: 'white',
-          border: 'none'
-        }}>
-          <div style={{
-            width: '80px',
-            height: '80px',
-            background: 'var(--bg-subtle)',
-            borderRadius: '50%',
+          style={{
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 1.5rem'
-          }}>
-            <Activity size={32} style={{ color: 'var(--primary-green)' }} />
-          </div>
-          <h3 style={{ marginBottom: '1rem', color: 'var(--primary-dark)' }}>Search for any Indian food</h3>
-          <p style={{ marginBottom: '2.5rem', color: 'var(--text-secondary)' }}>
-            Get instant nutrition facts, fitness scores, and healthier alternatives
-          </p>
-          <div style={{
-            display: 'flex',
             gap: '0.75rem',
-            justifyContent: 'center',
-            flexWrap: 'wrap'
+            cursor: 'pointer'
+          }}
+        >
+          <div style={{
+            width: '36px',
+            height: '36px',
+            background: 'var(--bg-subtle)',
+            borderRadius: '8px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
           }}>
-            {['Butter Chicken', 'Samosa', 'Idli', 'Biryani'].map(item => (
-              <button
-                key={item}
-                className="badge"
-                style={{
-                  background: 'white',
-                  color: 'var(--text-secondary)',
-                  border: '1px solid #E5E7EB',
-                  cursor: 'pointer',
-                  fontSize: '0.95rem',
-                  padding: '0.75rem 1.25rem',
-                  fontWeight: '500',
-                  boxShadow: '0 1px 2px rgba(0,0,0,0.05)'
-                }}
-                onClick={() => {
-                  // Find the food item in the database
-                  const food = foodDatabase.find(f => f.name.toLowerCase().includes(item.toLowerCase()));
-                  if (food) setSelectedFood(food);
-                }}
-              >
-                {item}
-              </button>
-            ))}
+            <Activity size={20} style={{ color: 'var(--primary-green)' }} />
           </div>
+          <span style={{
+            fontSize: '1.25rem',
+            fontWeight: '700',
+            color: 'var(--primary-dark)',
+            letterSpacing: '-0.02em'
+          }}>
+            FitScore India
+          </span>
         </div>
-      )}
 
-      <footer style={{
-        marginTop: '6rem',
-        paddingTop: '2rem',
-        borderTop: '1px solid #E5E7EB',
-        textAlign: 'center',
-        color: 'var(--text-muted)',
-        fontSize: '0.9rem'
-      }}>
-        <p>Nutritional data based on standard restaurant servings • For informational purposes only</p>
-      </footer>
+        <button
+          onClick={goHome}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            padding: '0.5rem 1rem',
+            background: 'transparent',
+            border: '1px solid transparent',
+            borderRadius: '8px',
+            color: 'var(--text-secondary)',
+            fontWeight: '600',
+            cursor: 'pointer',
+            transition: 'all 0.2s'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = 'var(--bg-subtle)';
+            e.currentTarget.style.color = 'var(--primary-dark)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = 'transparent';
+            e.currentTarget.style.color = 'var(--text-secondary)';
+          }}
+        >
+          <Home size={18} />
+          <span style={{ display: 'none', '@media (min-width: 640px)': { display: 'inline' } }}>Home</span>
+        </button>
+      </nav>
+
+      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
+        {!selectedFood && (
+          <header style={{ textAlign: 'center', marginBottom: '3rem', paddingTop: '2rem' }}>
+            <div className="animate-fade-in" style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              padding: '0.5rem 1rem',
+              background: 'white',
+              borderRadius: '100px',
+              boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
+              marginBottom: '1.5rem',
+              border: '1px solid #E5E7EB'
+            }}>
+              <Zap size={16} style={{ color: 'var(--accent-terracotta)' }} />
+              <span style={{ fontSize: '0.9rem', fontWeight: '600', color: 'var(--text-secondary)' }}>
+                Discover the truth about your food
+              </span>
+            </div>
+
+            <h1 className="animate-fade-in" style={{
+              fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+              marginBottom: '1rem',
+              lineHeight: 1.1,
+              letterSpacing: '-0.02em'
+            }}>
+              Eat Smarter, <span style={{ color: 'var(--primary-green)' }}>Live Better</span>
+            </h1>
+
+            <p className="animate-fade-in" style={{
+              maxWidth: '600px',
+              margin: '0 auto',
+              fontSize: '1.25rem',
+              color: 'var(--text-secondary)',
+              fontWeight: '400',
+              lineHeight: 1.6
+            }}>
+              Instantly analyze Indian foods for their nutritional value, fitness score, and healthier alternatives.
+            </p>
+
+            <div style={{
+              display: 'flex',
+              gap: '1rem',
+              justifyContent: 'center',
+              marginTop: '2rem',
+              flexWrap: 'wrap'
+            }}>
+              <div className="badge badge-success">
+                <TrendingUp size={16} />
+                {foodDatabase.length}+ Foods Database
+              </div>
+            </div>
+          </header>
+        )}
+
+        <div style={{ marginTop: selectedFood ? '2rem' : '0' }}>
+          <SearchBar key={searchKey} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
+        </div>
+
+        {selectedFood ? (
+          <div style={{ marginTop: '2rem' }}>
+            <NutritionCard food={selectedFood} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
+          </div>
+        ) : (
+          <div className="animate-fade-in" style={{
+            marginTop: '4rem',
+            textAlign: 'center'
+          }}>
+            <p style={{
+              color: 'var(--text-muted)',
+              fontSize: '0.9rem',
+              fontWeight: '600',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em',
+              marginBottom: '1.5rem'
+            }}>
+              Popular Searches
+            </p>
+            <div style={{
+              display: 'flex',
+              gap: '0.75rem',
+              justifyContent: 'center',
+              flexWrap: 'wrap',
+              maxWidth: '800px',
+              margin: '0 auto'
+            }}>
+              {['Butter Chicken', 'Samosa', 'Idli', 'Biryani', 'Dosa', 'Paneer Tikka'].map(item => (
+                <button
+                  key={item}
+                  style={{
+                    background: 'white',
+                    color: 'var(--text-secondary)',
+                    border: '1px solid #E5E7EB',
+                    borderRadius: '100px',
+                    cursor: 'pointer',
+                    fontSize: '0.95rem',
+                    padding: '0.6rem 1.25rem',
+                    fontWeight: '500',
+                    transition: 'all 0.2s',
+                    boxShadow: '0 1px 2px rgba(0,0,0,0.02)'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = 'var(--primary-green)';
+                    e.currentTarget.style.color = 'var(--primary-dark)';
+                    e.currentTarget.style.transform = 'translateY(-1px)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = '#E5E7EB';
+                    e.currentTarget.style.color = 'var(--text-secondary)';
+                    e.currentTarget.style.transform = 'translateY(0)';
+                  }}
+                  onClick={() => {
+                    const food = foodDatabase.find(f => f.name.toLowerCase().includes(item.toLowerCase()));
+                    if (food) setSelectedFood(food);
+                  }}
+                >
+                  {item}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <footer style={{
+          marginTop: '6rem',
+          paddingTop: '2rem',
+          borderTop: '1px solid #E5E7EB',
+          textAlign: 'center',
+          color: 'var(--text-muted)',
+          fontSize: '0.9rem',
+          paddingBottom: '2rem'
+        }}>
+          <p>Nutritional data based on standard restaurant servings • For informational purposes only</p>
+        </footer>
+      </div>
     </div>
   );
 }
