@@ -1,0 +1,5370 @@
+{
+  "metadata": {
+    "totalItems": 200,
+    "generatedAt": "2025-11-24T09:41:40.768Z",
+    "version": "1.0.0"
+  },
+  "data": [
+    {
+      "id": "butter-chicken",
+      "name": "Butter Chicken",
+      "calories": 450,
+      "servingSize": "1 bowl (300g)",
+      "macros": {
+        "protein": 25,
+        "carbs": 12,
+        "fat": 35
+      },
+      "fitnessScore": 45,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High saturated fat from butter/cream",
+        "Calorie dense",
+        "Good protein source but overshadowed by fat"
+      ],
+      "alternatives": [
+        "Grilled Chicken Tikka",
+        "Tandoori Chicken",
+        "Chicken Curry"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Heavy Cream",
+        "Butter",
+        "Sugar in gravy",
+        "Refined oil"
+      ]
+    },
+    {
+      "id": "paneer-butter-masala",
+      "name": "Paneer Butter Masala",
+      "calories": 400,
+      "servingSize": "1 bowl (300g)",
+      "macros": {
+        "protein": 18,
+        "carbs": 15,
+        "fat": 32
+      },
+      "fitnessScore": 50,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Very high fat content",
+        "Calorie dense",
+        "Good calcium source"
+      ],
+      "alternatives": [
+        "Palak Paneer",
+        "Paneer Tikka",
+        "Matar Paneer"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Butter",
+        "Cream",
+        "Cashew paste",
+        "Sugar"
+      ]
+    },
+    {
+      "id": "dal-makhani",
+      "name": "Dal Makhani",
+      "calories": 350,
+      "servingSize": "1 bowl (250g)",
+      "macros": {
+        "protein": 12,
+        "carbs": 30,
+        "fat": 20
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Rich in fiber",
+        "High fat due to cream/butter",
+        "Slow digesting carbs"
+      ],
+      "alternatives": [
+        "Yellow Dal Tadka",
+        "Moong Dal",
+        "Chana Masala"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Butter",
+        "Cream"
+      ]
+    },
+    {
+      "id": "samosa",
+      "name": "Samosa",
+      "calories": 260,
+      "servingSize": "1 piece (large)",
+      "macros": {
+        "protein": 4,
+        "carbs": 32,
+        "fat": 14
+      },
+      "fitnessScore": 20,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried in refined oil",
+        "Refined flour (Maida) shell",
+        "Zero nutritional value"
+      ],
+      "alternatives": [
+        "Baked Samosa",
+        "Air-fried Samosa",
+        "Dhokla"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Trans fats",
+        "Refined flour",
+        "Refined oil"
+      ]
+    },
+    {
+      "id": "dosa",
+      "name": "Masala Dosa",
+      "calories": 350,
+      "servingSize": "1 large",
+      "macros": {
+        "protein": 8,
+        "carbs": 55,
+        "fat": 12
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Fermented batter (good for gut)",
+        "High carb content",
+        "Potato filling adds calories"
+      ],
+      "alternatives": [
+        "Plain Dosa",
+        "Ragi Dosa",
+        "Idli"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Oil/Ghee used for roasting",
+        "Potato filling"
+      ]
+    },
+    {
+      "id": "idli",
+      "name": "Idli",
+      "calories": 40,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 2,
+        "carbs": 8,
+        "fat": 0.5
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Steamed, not fried",
+        "Fermented (probiotic)",
+        "Low calorie"
+      ],
+      "alternatives": [
+        "None needed"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "chole-bhature",
+      "name": "Chole Bhature",
+      "calories": 550,
+      "servingSize": "1 plate (2 bhature + chole)",
+      "macros": {
+        "protein": 18,
+        "carbs": 70,
+        "fat": 25
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried bread (Bhature)",
+        "Refined flour (Maida)",
+        "High calorie meal"
+      ],
+      "alternatives": [
+        "Chana Masala",
+        "Sprouts Chaat"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Soda"
+      ]
+    },
+    {
+      "id": "biryani-chicken",
+      "name": "Chicken Biryani",
+      "calories": 600,
+      "servingSize": "1 plate (400g)",
+      "macros": {
+        "protein": 30,
+        "carbs": 70,
+        "fat": 20
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Complete meal (Carbs + Protein)",
+        "High calorie density",
+        "Often oily"
+      ],
+      "alternatives": [
+        "Chicken Pulao",
+        "Chicken Biryani"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Excess oil/ghee",
+        "Fried onions"
+      ]
+    },
+    {
+      "id": "roti",
+      "name": "Roti (Chapati)",
+      "calories": 85,
+      "servingSize": "1 piece (medium)",
+      "macros": {
+        "protein": 3,
+        "carbs": 18,
+        "fat": 0.5
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Whole wheat (complex carbs)",
+        "Low fat",
+        "Staple source of energy"
+      ],
+      "alternatives": [
+        "Multigrain Roti",
+        "Bajra Roti"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None (unless ghee added)"
+      ]
+    },
+    {
+      "id": "naan",
+      "name": "Butter Naan",
+      "calories": 280,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 8,
+        "carbs": 45,
+        "fat": 10
+      },
+      "fitnessScore": 40,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Refined flour (Maida)",
+        "High glycemic index",
+        "Added butter/fat"
+      ],
+      "alternatives": [
+        "Tandoori Roti"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "Butter",
+        "Sugar"
+      ]
+    },
+    {
+      "id": "rajma-chawal",
+      "name": "Rajma Chawal",
+      "calories": 450,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 15,
+        "carbs": 75,
+        "fat": 10
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Complete protein profile",
+        "High fiber",
+        "Comfort food but healthy"
+      ],
+      "alternatives": [
+        "Rajma Chawal"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None usually"
+      ]
+    },
+    {
+      "id": "gulab-jamun",
+      "name": "Gulab Jamun",
+      "calories": 150,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 2,
+        "carbs": 25,
+        "fat": 6
+      },
+      "fitnessScore": 10,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Pure sugar syrup",
+        "Deep fried milk solids",
+        "High glycemic spike"
+      ],
+      "alternatives": [
+        "Rasgulla",
+        "Fruit Salad"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Sugar",
+        "Maida",
+        "Ghee/Oil"
+      ]
+    },
+    {
+      "id": "dhokla",
+      "name": "Dhokla",
+      "calories": 160,
+      "servingSize": "4 pieces",
+      "macros": {
+        "protein": 6,
+        "carbs": 25,
+        "fat": 4
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Steamed",
+        "Fermented",
+        "Low calorie snack"
+      ],
+      "alternatives": [
+        "Khandvi"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Sugar in water tempering"
+      ]
+    },
+    {
+      "id": "pav-bhaji",
+      "name": "Pav Bhaji",
+      "calories": 600,
+      "servingSize": "2 Pav + Bhaji",
+      "macros": {
+        "protein": 12,
+        "carbs": 80,
+        "fat": 25
+      },
+      "fitnessScore": 40,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Refined bread (Pav)",
+        "Excess butter in bhaji",
+        "Vegetables are overcooked (nutrient loss)"
+      ],
+      "alternatives": [
+        "Pav Bhaji",
+        "Roti (Chapati)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Butter",
+        "Maida",
+        "Food color"
+      ]
+    },
+    {
+      "id": "poha",
+      "name": "Poha",
+      "calories": 250,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 4,
+        "carbs": 45,
+        "fat": 8
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Easy to digest",
+        "Good iron source",
+        "Low calorie breakfast"
+      ],
+      "alternatives": [
+        "Oats Poha"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Peanuts (if excess)",
+        "Sev topping"
+      ]
+    },
+    {
+      "id": "vada-pav",
+      "name": "Vada Pav",
+      "calories": 300,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 6,
+        "carbs": 42,
+        "fat": 12
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried potato patty",
+        "Refined flour bread (Pav)",
+        "High in trans fats"
+      ],
+      "alternatives": [
+        "Vada Pav",
+        "Sprouts Chaat",
+        "Dhokla"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Besan (fried)"
+      ]
+    },
+    {
+      "id": "upma",
+      "name": "Upma",
+      "calories": 200,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 5,
+        "carbs": 35,
+        "fat": 6
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Low calorie breakfast",
+        "Good source of fiber",
+        "Easy to digest"
+      ],
+      "alternatives": [
+        "Oats Upma",
+        "Quinoa Upma"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Excess oil (if any)"
+      ]
+    },
+    {
+      "id": "paratha-aloo",
+      "name": "Aloo Paratha",
+      "calories": 320,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 7,
+        "carbs": 45,
+        "fat": 14
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Whole wheat base",
+        "High in ghee/oil",
+        "Filling meal"
+      ],
+      "alternatives": [
+        "Roti (Chapati)",
+        "Multigrain Roti"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Ghee/Butter",
+        "Potato (high carb)"
+      ]
+    },
+    {
+      "id": "medu-vada",
+      "name": "Medu Vada",
+      "calories": 180,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 6,
+        "carbs": 20,
+        "fat": 10
+      },
+      "fitnessScore": 50,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Protein from lentils",
+        "Deep fried",
+        "High sodium"
+      ],
+      "alternatives": [
+        "Steamed Idli",
+        "Dhokla"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil",
+        "Excess salt"
+      ]
+    },
+    {
+      "id": "paneer-tikka",
+      "name": "Paneer Tikka",
+      "calories": 280,
+      "servingSize": "6 pieces",
+      "macros": {
+        "protein": 18,
+        "carbs": 8,
+        "fat": 20
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Grilled/Tandoor cooked",
+        "Good calcium source"
+      ],
+      "alternatives": [
+        "Tofu Tikka",
+        "Grilled Chicken Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil in marinade",
+        "Cream (if added)"
+      ]
+    },
+    {
+      "id": "tandoori-chicken",
+      "name": "Tandoori Chicken",
+      "calories": 260,
+      "servingSize": "1 quarter (200g)",
+      "macros": {
+        "protein": 35,
+        "carbs": 5,
+        "fat": 12
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein, low carb",
+        "Grilled in tandoor",
+        "Minimal oil"
+      ],
+      "alternatives": [
+        "Grilled Chicken",
+        "Grilled Chicken Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Food color (sometimes)"
+      ]
+    },
+    {
+      "id": "palak-paneer",
+      "name": "Palak Paneer",
+      "calories": 280,
+      "servingSize": "1 bowl (250g)",
+      "macros": {
+        "protein": 15,
+        "carbs": 10,
+        "fat": 20
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Rich in iron and calcium",
+        "Good protein source",
+        "Moderate fat content"
+      ],
+      "alternatives": [
+        "Palak Paneer",
+        "Sarson ka Saag"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Cream (if added)",
+        "Butter"
+      ]
+    },
+    {
+      "id": "jalebi",
+      "name": "Jalebi",
+      "calories": 150,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 1,
+        "carbs": 30,
+        "fat": 5
+      },
+      "fitnessScore": 5,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Pure sugar syrup",
+        "Deep fried in oil",
+        "Zero nutritional value"
+      ],
+      "alternatives": [
+        "Fresh Fruit",
+        "Dates"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Sugar",
+        "Maida",
+        "Food color",
+        "Refined oil"
+      ]
+    },
+    {
+      "id": "kachori",
+      "name": "Kachori",
+      "calories": 280,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 5,
+        "carbs": 35,
+        "fat": 15
+      },
+      "fitnessScore": 20,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried",
+        "Refined flour",
+        "High in trans fats"
+      ],
+      "alternatives": [
+        "Kachori",
+        "Dhokla",
+        "Idli"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Trans fats"
+      ]
+    },
+    {
+      "id": "aloo-tikki",
+      "name": "Aloo Tikki",
+      "calories": 200,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 3,
+        "carbs": 28,
+        "fat": 10
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried potato",
+        "High glycemic index",
+        "Minimal nutrition"
+      ],
+      "alternatives": [
+        "Aloo Tikki",
+        "Sprouts Chaat"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Potato (high carb)"
+      ]
+    },
+    {
+      "id": "panipuri",
+      "name": "Pani Puri",
+      "calories": 240,
+      "servingSize": "6 pieces",
+      "macros": {
+        "protein": 4,
+        "carbs": 40,
+        "fat": 8
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried puris",
+        "Refined flour",
+        "Hygiene concerns (street food)"
+      ],
+      "alternatives": [
+        "Pani Puri",
+        "Bhel Puri"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Sugar in water"
+      ]
+    },
+    {
+      "id": "bhel-puri",
+      "name": "Bhel Puri",
+      "calories": 220,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 5,
+        "carbs": 38,
+        "fat": 7
+      },
+      "fitnessScore": 45,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Puffed rice (low calorie)",
+        "Contains vegetables",
+        "Fried sev adds fat"
+      ],
+      "alternatives": [
+        "Sprouts Chaat",
+        "Fruit Chaat"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Sev (fried)",
+        "Sugar in chutney"
+      ]
+    },
+    {
+      "id": "pakora",
+      "name": "Vegetable Pakora",
+      "calories": 250,
+      "servingSize": "5 pieces",
+      "macros": {
+        "protein": 6,
+        "carbs": 25,
+        "fat": 15
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried",
+        "Absorbs lot of oil",
+        "High in trans fats"
+      ],
+      "alternatives": [
+        "Vegetable Pakora",
+        "Veg Momos"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil",
+        "Besan (fried)",
+        "Trans fats"
+      ]
+    },
+    {
+      "id": "dal-tadka",
+      "name": "Dal Tadka",
+      "calories": 200,
+      "servingSize": "1 bowl (250g)",
+      "macros": {
+        "protein": 10,
+        "carbs": 28,
+        "fat": 6
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein from lentils",
+        "Rich in fiber",
+        "Low fat (if not over-tempered)"
+      ],
+      "alternatives": [
+        "Moong Dal",
+        "Yellow Dal Tadka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Excess ghee/oil in tadka"
+      ]
+    },
+    {
+      "id": "chicken-curry",
+      "name": "Chicken Curry",
+      "calories": 320,
+      "servingSize": "1 bowl (300g)",
+      "macros": {
+        "protein": 28,
+        "carbs": 8,
+        "fat": 20
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "Can be oily",
+        "Good for muscle building"
+      ],
+      "alternatives": [
+        "Grilled Chicken",
+        "Chicken Curry"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Excess oil",
+        "Cream (in some recipes)"
+      ]
+    },
+    {
+      "id": "fish-curry",
+      "name": "Fish Curry",
+      "calories": 280,
+      "servingSize": "1 bowl (300g)",
+      "macros": {
+        "protein": 30,
+        "carbs": 6,
+        "fat": 15
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein, omega-3",
+        "Low carb",
+        "Heart healthy"
+      ],
+      "alternatives": [
+        "Grilled Fish"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Coconut oil (high saturated fat)"
+      ]
+    },
+    {
+      "id": "raita",
+      "name": "Cucumber Raita",
+      "calories": 80,
+      "servingSize": "1 bowl (150g)",
+      "macros": {
+        "protein": 4,
+        "carbs": 8,
+        "fat": 4
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Probiotic from yogurt",
+        "Low calorie",
+        "Cooling and digestive"
+      ],
+      "alternatives": [
+        "Cucumber Raita"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "lassi-sweet",
+      "name": "Sweet Lassi",
+      "calories": 180,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 6,
+        "carbs": 28,
+        "fat": 5
+      },
+      "fitnessScore": 50,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Probiotic benefits",
+        "High sugar content",
+        "Good calcium source"
+      ],
+      "alternatives": [
+        "Plain Lassi",
+        "Buttermilk",
+        "Chaas"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Sugar",
+        "Cream (if added)"
+      ]
+    },
+    {
+      "id": "chaas",
+      "name": "Chaas (Buttermilk)",
+      "calories": 60,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 3,
+        "carbs": 8,
+        "fat": 2
+      },
+      "fitnessScore": 95,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Probiotic rich",
+        "Low calorie",
+        "Aids digestion"
+      ],
+      "alternatives": [
+        "Plain Lassi"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "khichdi",
+      "name": "Khichdi",
+      "calories": 280,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 10,
+        "carbs": 45,
+        "fat": 8
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Complete protein (rice + lentils)",
+        "Easy to digest",
+        "Comfort food"
+      ],
+      "alternatives": [
+        "Brown Rice Khichdi"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee (if excess)"
+      ]
+    },
+    {
+      "id": "pulao",
+      "name": "Vegetable Pulao",
+      "calories": 320,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 8,
+        "carbs": 55,
+        "fat": 10
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Contains vegetables",
+        "Lighter than biryani",
+        "Moderate calories"
+      ],
+      "alternatives": [
+        "Brown Rice Pulao"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee/Oil",
+        "Fried cashews"
+      ]
+    },
+    {
+      "id": "malai-kofta",
+      "name": "Malai Kofta",
+      "calories": 480,
+      "servingSize": "1 bowl (300g)",
+      "macros": {
+        "protein": 12,
+        "carbs": 35,
+        "fat": 32
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried koftas",
+        "Heavy cream gravy",
+        "Very high in calories"
+      ],
+      "alternatives": [
+        "Paneer Tikka",
+        "Palak Paneer"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Cream",
+        "Cashew paste",
+        "Deep fried",
+        "Sugar"
+      ]
+    },
+    {
+      "id": "kadhi",
+      "name": "Kadhi Pakora",
+      "calories": 300,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 8,
+        "carbs": 25,
+        "fat": 18
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Yogurt base (probiotic)",
+        "Pakoras are fried",
+        "Can be heavy"
+      ],
+      "alternatives": [
+        "Kadhi Pakora",
+        "Yellow Dal Tadka"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Fried pakoras",
+        "Besan"
+      ]
+    },
+    {
+      "id": "aloo-gobi",
+      "name": "Aloo Gobi",
+      "calories": 180,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 4,
+        "carbs": 28,
+        "fat": 8
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Vegetables",
+        "Potato adds carbs",
+        "Can be oily"
+      ],
+      "alternatives": [
+        "Aloo Gobi",
+        "Vegetable Pulao"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Oil",
+        "Potato (high carb)"
+      ]
+    },
+    {
+      "id": "baingan-bharta",
+      "name": "Baingan Bharta",
+      "calories": 150,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 3,
+        "carbs": 15,
+        "fat": 10
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Roasted eggplant",
+        "Low calorie",
+        "Rich in fiber"
+      ],
+      "alternatives": [
+        "Baingan Bharta"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil/Ghee"
+      ]
+    },
+    {
+      "id": "chana-masala",
+      "name": "Chana Masala",
+      "calories": 240,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 12,
+        "carbs": 35,
+        "fat": 6
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein and fiber",
+        "Low fat",
+        "Filling and nutritious"
+      ],
+      "alternatives": [
+        "Rajma Chawal",
+        "Yellow Dal Tadka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None usually"
+      ]
+    },
+    {
+      "id": "puri",
+      "name": "Puri",
+      "calories": 110,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 2,
+        "carbs": 15,
+        "fat": 5
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried",
+        "Refined flour",
+        "Absorbs lot of oil"
+      ],
+      "alternatives": [
+        "Roti (Chapati)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida"
+      ]
+    },
+    {
+      "id": "kulfi",
+      "name": "Kulfi",
+      "calories": 200,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 5,
+        "carbs": 30,
+        "fat": 8
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High sugar",
+        "Full cream milk",
+        "Calorie dense"
+      ],
+      "alternatives": [
+        "Fruit Salad",
+        "Sweet Lassi"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar",
+        "Cream",
+        "Condensed milk"
+      ]
+    },
+    {
+      "id": "rasgulla",
+      "name": "Rasgulla",
+      "calories": 120,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 3,
+        "carbs": 24,
+        "fat": 2
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Sugar syrup",
+        "Lower fat than other sweets",
+        "Still high in sugar"
+      ],
+      "alternatives": [
+        "Fresh Fruit"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar"
+      ]
+    },
+    {
+      "id": "mysore-pak",
+      "name": "Mysore Pak",
+      "calories": 180,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 2,
+        "carbs": 22,
+        "fat": 10
+      },
+      "fitnessScore": 10,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Pure ghee and sugar",
+        "Very high in saturated fat",
+        "Calorie bomb"
+      ],
+      "alternatives": [
+        "Dates",
+        "Almonds (Raw/Roasted)"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Ghee",
+        "Sugar",
+        "Besan"
+      ]
+    },
+    {
+      "id": "momos",
+      "name": "Veg Momos",
+      "calories": 280,
+      "servingSize": "6 pieces",
+      "macros": {
+        "protein": 8,
+        "carbs": 42,
+        "fat": 10
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Steamed (healthy cooking)",
+        "Refined flour wrapper",
+        "Moderate calories"
+      ],
+      "alternatives": [
+        "Veg Momos"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Maida",
+        "Oil in filling"
+      ]
+    },
+    {
+      "id": "spring-roll",
+      "name": "Spring Roll",
+      "calories": 220,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 5,
+        "carbs": 28,
+        "fat": 12
+      },
+      "fitnessScore": 40,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried",
+        "Refined flour wrapper",
+        "High in trans fats"
+      ],
+      "alternatives": [
+        "Spring Roll"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Trans fats"
+      ]
+    },
+    {
+      "id": "manchurian",
+      "name": "Veg Manchurian",
+      "calories": 320,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 6,
+        "carbs": 40,
+        "fat": 16
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried balls",
+        "High sodium sauce",
+        "Refined flour coating"
+      ],
+      "alternatives": [
+        "Vegetable Pulao",
+        "Paneer Tikka"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "MSG",
+        "Sugar in sauce"
+      ]
+    },
+    {
+      "id": "fried-rice",
+      "name": "Veg Fried Rice",
+      "calories": 380,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 8,
+        "carbs": 60,
+        "fat": 14
+      },
+      "fitnessScore": 50,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High in oil",
+        "Refined carbs",
+        "Contains vegetables"
+      ],
+      "alternatives": [
+        "Veg Fried Rice"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Excess oil",
+        "MSG",
+        "Soy sauce (sodium)"
+      ]
+    },
+    {
+      "id": "hakka-noodles",
+      "name": "Hakka Noodles",
+      "calories": 400,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 10,
+        "carbs": 65,
+        "fat": 15
+      },
+      "fitnessScore": 45,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Refined noodles",
+        "High in oil",
+        "Contains vegetables"
+      ],
+      "alternatives": [
+        "Hakka Noodles"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined flour",
+        "Excess oil",
+        "MSG"
+      ]
+    },
+    {
+      "id": "thepla",
+      "name": "Thepla",
+      "calories": 120,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 3,
+        "carbs": 18,
+        "fat": 5
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Whole wheat + methi",
+        "Nutritious",
+        "Travel-friendly"
+      ],
+      "alternatives": [
+        "Thepla"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Oil (if excess)"
+      ]
+    },
+    {
+      "id": "khandvi",
+      "name": "Khandvi",
+      "calories": 140,
+      "servingSize": "6 pieces",
+      "macros": {
+        "protein": 5,
+        "carbs": 20,
+        "fat": 5
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Steamed",
+        "Low calorie",
+        "Protein from besan"
+      ],
+      "alternatives": [
+        "Dhokla"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Tempering oil"
+      ]
+    },
+    {
+      "id": "pongal",
+      "name": "Ven Pongal",
+      "calories": 280,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 8,
+        "carbs": 45,
+        "fat": 10
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Rice and lentils",
+        "Comfort food",
+        "Easy to digest"
+      ],
+      "alternatives": [
+        "Ven Pongal"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee",
+        "Cashews"
+      ]
+    },
+    {
+      "id": "uttapam",
+      "name": "Uttapam",
+      "calories": 180,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 6,
+        "carbs": 30,
+        "fat": 5
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Fermented batter",
+        "Contains vegetables",
+        "Low fat"
+      ],
+      "alternatives": [
+        "Uttapam"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Oil for roasting"
+      ]
+    },
+    {
+      "id": "appam",
+      "name": "Appam",
+      "calories": 120,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 2,
+        "carbs": 25,
+        "fat": 2
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Fermented rice batter",
+        "Low calorie",
+        "Soft and digestible"
+      ],
+      "alternatives": [
+        "Idli",
+        "Plain Dosa"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Coconut milk (if added)"
+      ]
+    },
+    {
+      "id": "misal-pav",
+      "name": "Misal Pav",
+      "calories": 420,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 14,
+        "carbs": 55,
+        "fat": 18
+      },
+      "fitnessScore": 50,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Protein from sprouts",
+        "High in oil and spices",
+        "Pav adds refined carbs"
+      ],
+      "alternatives": [
+        "Sprouts Chaat",
+        "Misal Pav"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Excess oil",
+        "Maida (Pav)",
+        "Farsan (fried)"
+      ]
+    },
+    {
+      "id": "pav-bhaji-extra",
+      "name": "Cheese Pav Bhaji",
+      "calories": 720,
+      "servingSize": "2 Pav + Bhaji",
+      "macros": {
+        "protein": 16,
+        "carbs": 85,
+        "fat": 32
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Excessive butter and cheese",
+        "Very high calories",
+        "Refined bread"
+      ],
+      "alternatives": [
+        "Pav Bhaji"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Butter",
+        "Cheese",
+        "Maida",
+        "Food color"
+      ]
+    },
+    {
+      "id": "dabeli",
+      "name": "Dabeli",
+      "calories": 280,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 5,
+        "carbs": 45,
+        "fat": 10
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Refined bread (Pav)",
+        "Potato filling (high carb)",
+        "Fried peanuts and sev"
+      ],
+      "alternatives": [
+        "Dabeli",
+        "Sprouts Chaat"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Sev",
+        "Fried peanuts"
+      ]
+    },
+    {
+      "id": "vada-sambhar",
+      "name": "Vada Sambhar",
+      "calories": 320,
+      "servingSize": "2 vadas + sambhar",
+      "macros": {
+        "protein": 10,
+        "carbs": 35,
+        "fat": 16
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Protein from lentils",
+        "Vadas are deep fried",
+        "Sambhar is nutritious"
+      ],
+      "alternatives": [
+        "Idli",
+        "Steamed Idli"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil (frying)"
+      ]
+    },
+    {
+      "id": "pesarattu",
+      "name": "Pesarattu",
+      "calories": 180,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 8,
+        "carbs": 28,
+        "fat": 5
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein from moong dal",
+        "No fermentation needed",
+        "Low fat"
+      ],
+      "alternatives": [
+        "Plain Dosa",
+        "Uttapam"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil for roasting"
+      ]
+    },
+    {
+      "id": "rava-dosa",
+      "name": "Rava Dosa",
+      "calories": 220,
+      "servingSize": "1 large",
+      "macros": {
+        "protein": 5,
+        "carbs": 38,
+        "fat": 8
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Quick to make",
+        "Refined semolina",
+        "Crispy texture"
+      ],
+      "alternatives": [
+        "Plain Dosa",
+        "Ragi Dosa"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined rava",
+        "Oil"
+      ]
+    },
+    {
+      "id": "masala-chai",
+      "name": "Masala Chai",
+      "calories": 80,
+      "servingSize": "1 cup (150ml)",
+      "macros": {
+        "protein": 2,
+        "carbs": 12,
+        "fat": 3
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Antioxidants from tea",
+        "Sugar content",
+        "Milk adds calcium"
+      ],
+      "alternatives": [
+        "Masala Chai",
+        "South Indian Filter Coffee"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Sugar"
+      ]
+    },
+    {
+      "id": "filter-coffee",
+      "name": "South Indian Filter Coffee",
+      "calories": 60,
+      "servingSize": "1 cup (100ml)",
+      "macros": {
+        "protein": 2,
+        "carbs": 8,
+        "fat": 2
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Rich coffee flavor",
+        "Contains sugar",
+        "Milk adds nutrition"
+      ],
+      "alternatives": [
+        "South Indian Filter Coffee"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Sugar"
+      ]
+    },
+    {
+      "id": "nimbu-pani",
+      "name": "Nimbu Pani (Lemonade)",
+      "calories": 60,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 0,
+        "carbs": 15,
+        "fat": 0
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Vitamin C rich",
+        "Hydrating",
+        "Sugar content varies"
+      ],
+      "alternatives": [
+        "Nimbu Pani (Lemonade)",
+        "Coconut Water"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Sugar (if added)"
+      ]
+    },
+    {
+      "id": "jaljeera",
+      "name": "Jaljeera",
+      "calories": 40,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 0,
+        "carbs": 10,
+        "fat": 0
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Digestive spices",
+        "Low calorie",
+        "Refreshing"
+      ],
+      "alternatives": [
+        "Nimbu Pani (Lemonade)",
+        "Aam Panna"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Sugar (minimal)"
+      ]
+    },
+    {
+      "id": "aam-panna",
+      "name": "Aam Panna",
+      "calories": 90,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 0,
+        "carbs": 22,
+        "fat": 0
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Raw mango nutrients",
+        "Cooling drink",
+        "Natural sugars"
+      ],
+      "alternatives": [
+        "Nimbu Pani (Lemonade)",
+        "Coconut Water"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Sugar"
+      ]
+    },
+    {
+      "id": "thandai",
+      "name": "Thandai",
+      "calories": 180,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 5,
+        "carbs": 28,
+        "fat": 8
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Nuts and seeds",
+        "High sugar content",
+        "Festive drink"
+      ],
+      "alternatives": [
+        "Badam Milk",
+        "Buttermilk"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar",
+        "Cream"
+      ]
+    },
+    {
+      "id": "badam-milk",
+      "name": "Badam Milk",
+      "calories": 150,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 6,
+        "carbs": 20,
+        "fat": 6
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Almonds (healthy fats)",
+        "Good protein source",
+        "Sugar content"
+      ],
+      "alternatives": [
+        "Badam Milk"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Sugar",
+        "Food color"
+      ]
+    },
+    {
+      "id": "coconut-water",
+      "name": "Coconut Water",
+      "calories": 45,
+      "servingSize": "1 glass (250ml)",
+      "macros": {
+        "protein": 1,
+        "carbs": 9,
+        "fat": 0
+      },
+      "fitnessScore": 95,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Natural electrolytes",
+        "Low calorie",
+        "Hydrating"
+      ],
+      "alternatives": [
+        "Coconut Water",
+        "Nimbu Pani (Lemonade)"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "bisi-bele-bath",
+      "name": "Bisi Bele Bath",
+      "calories": 350,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 10,
+        "carbs": 55,
+        "fat": 12
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Complete meal (rice + dal + veggies)",
+        "High in ghee",
+        "Comfort food"
+      ],
+      "alternatives": [
+        "Khichdi",
+        "Vegetable Pulao"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee",
+        "Cashews"
+      ]
+    },
+    {
+      "id": "lemon-rice",
+      "name": "Lemon Rice",
+      "calories": 280,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 5,
+        "carbs": 50,
+        "fat": 8
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Vitamin C from lemon",
+        "High carbs",
+        "Light and tangy"
+      ],
+      "alternatives": [
+        "Brown Rice Pulao",
+        "Curd Rice"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Oil",
+        "Fried peanuts"
+      ]
+    },
+    {
+      "id": "curd-rice",
+      "name": "Curd Rice",
+      "calories": 220,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 6,
+        "carbs": 40,
+        "fat": 5
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Probiotic from curd",
+        "Easy to digest",
+        "Cooling effect"
+      ],
+      "alternatives": [
+        "Curd Rice"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Tempering oil"
+      ]
+    },
+    {
+      "id": "tamarind-rice",
+      "name": "Tamarind Rice (Puliyogare)",
+      "calories": 320,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 6,
+        "carbs": 55,
+        "fat": 10
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Tangy and flavorful",
+        "High in oil",
+        "Tamarind has benefits"
+      ],
+      "alternatives": [
+        "Lemon Rice",
+        "Curd Rice"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Oil",
+        "Jaggery/Sugar"
+      ]
+    },
+    {
+      "id": "tomato-rice",
+      "name": "Tomato Rice",
+      "calories": 290,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 6,
+        "carbs": 52,
+        "fat": 8
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Tomatoes (lycopene)",
+        "Moderate calories",
+        "One-pot meal"
+      ],
+      "alternatives": [
+        "Vegetable Pulao",
+        "Lemon Rice"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "coconut-rice",
+      "name": "Coconut Rice",
+      "calories": 310,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 5,
+        "carbs": 50,
+        "fat": 12
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Coconut (healthy fats)",
+        "High in saturated fat",
+        "Aromatic"
+      ],
+      "alternatives": [
+        "Curd Rice",
+        "Lemon Rice"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Coconut (high fat)",
+        "Oil"
+      ]
+    },
+    {
+      "id": "egg-biryani",
+      "name": "Egg Biryani",
+      "calories": 480,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 18,
+        "carbs": 65,
+        "fat": 16
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Good protein from eggs",
+        "High carbs",
+        "Flavorful meal"
+      ],
+      "alternatives": [
+        "Egg Biryani",
+        "Chicken Biryani"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Oil/Ghee",
+        "Fried onions"
+      ]
+    },
+    {
+      "id": "mutton-biryani",
+      "name": "Mutton Biryani",
+      "calories": 680,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 32,
+        "carbs": 72,
+        "fat": 28
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "Very high calories",
+        "Rich and heavy"
+      ],
+      "alternatives": [
+        "Chicken Biryani",
+        "Mutton Biryani"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Excess oil/ghee",
+        "Fried onions"
+      ]
+    },
+    {
+      "id": "hyderabadi-biryani",
+      "name": "Hyderabadi Biryani",
+      "calories": 650,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 30,
+        "carbs": 75,
+        "fat": 24
+      },
+      "fitnessScore": 58,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Complete meal",
+        "High calorie density",
+        "Authentic spices"
+      ],
+      "alternatives": [
+        "Chicken Pulao",
+        "Chicken Biryani"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Ghee",
+        "Fried onions",
+        "Cream"
+      ]
+    },
+    {
+      "id": "keema",
+      "name": "Keema (Minced Meat)",
+      "calories": 380,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 28,
+        "carbs": 8,
+        "fat": 26
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "High fat content",
+        "Rich and flavorful"
+      ],
+      "alternatives": [
+        "Grilled Chicken",
+        "Chicken Curry"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Excess oil"
+      ]
+    },
+    {
+      "id": "nihari",
+      "name": "Nihari",
+      "calories": 420,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 30,
+        "carbs": 10,
+        "fat": 28
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "Very high fat",
+        "Slow-cooked (tender)"
+      ],
+      "alternatives": [
+        "Chicken Curry",
+        "Yellow Dal Tadka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Ghee",
+        "Bone marrow (fat)"
+      ]
+    },
+    {
+      "id": "haleem",
+      "name": "Haleem",
+      "calories": 450,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 25,
+        "carbs": 40,
+        "fat": 20
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein (meat + lentils)",
+        "Complete meal",
+        "High in ghee"
+      ],
+      "alternatives": [
+        "Khichdi",
+        "Yellow Dal Tadka"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee",
+        "Fried onions"
+      ]
+    },
+    {
+      "id": "korma",
+      "name": "Chicken Korma",
+      "calories": 480,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 26,
+        "carbs": 12,
+        "fat": 36
+      },
+      "fitnessScore": 45,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High protein",
+        "Very high fat (cream/nuts)",
+        "Rich gravy"
+      ],
+      "alternatives": [
+        "Chicken Curry",
+        "Grilled Chicken"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Cream",
+        "Cashew paste",
+        "Ghee"
+      ]
+    },
+    {
+      "id": "rogan-josh",
+      "name": "Rogan Josh",
+      "calories": 420,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 28,
+        "carbs": 10,
+        "fat": 30
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "High fat content",
+        "Kashmiri spices"
+      ],
+      "alternatives": [
+        "Chicken Curry",
+        "Rogan Josh"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil/Ghee",
+        "Food color (sometimes)"
+      ]
+    },
+    {
+      "id": "vindaloo",
+      "name": "Chicken Vindaloo",
+      "calories": 380,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 30,
+        "carbs": 12,
+        "fat": 24
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "Spicy (metabolism boost)",
+        "High in oil"
+      ],
+      "alternatives": [
+        "Grilled Chicken",
+        "Grilled Chicken Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil",
+        "Vinegar (acidic)"
+      ]
+    },
+    {
+      "id": "prawn-curry",
+      "name": "Prawn Curry",
+      "calories": 280,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 28,
+        "carbs": 8,
+        "fat": 16
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein, low carb",
+        "Omega-3 fatty acids",
+        "Moderate fat"
+      ],
+      "alternatives": [
+        "Prawn Curry",
+        "Fish Curry"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Coconut oil"
+      ]
+    },
+    {
+      "id": "goan-fish-curry",
+      "name": "Goan Fish Curry",
+      "calories": 320,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 32,
+        "carbs": 8,
+        "fat": 18
+      },
+      "fitnessScore": 78,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Coconut (healthy fats)",
+        "Omega-3 rich"
+      ],
+      "alternatives": [
+        "Grilled Fish"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Coconut oil (saturated fat)"
+      ]
+    },
+    {
+      "id": "fish-fry",
+      "name": "Fish Fry",
+      "calories": 320,
+      "servingSize": "1 piece (150g)",
+      "macros": {
+        "protein": 28,
+        "carbs": 12,
+        "fat": 20
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "Deep fried",
+        "Crispy coating"
+      ],
+      "alternatives": [
+        "Grilled Fish"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Refined oil",
+        "Rava/Maida coating"
+      ]
+    },
+    {
+      "id": "egg-curry",
+      "name": "Egg Curry",
+      "calories": 280,
+      "servingSize": "2 eggs + gravy",
+      "macros": {
+        "protein": 16,
+        "carbs": 10,
+        "fat": 20
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Good protein source",
+        "Affordable nutrition",
+        "Moderate fat"
+      ],
+      "alternatives": [
+        "Egg Curry",
+        "Egg Bhurji"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil in gravy"
+      ]
+    },
+    {
+      "id": "egg-bhurji",
+      "name": "Egg Bhurji",
+      "calories": 240,
+      "servingSize": "2 eggs",
+      "macros": {
+        "protein": 18,
+        "carbs": 6,
+        "fat": 16
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Low carb",
+        "Quick and nutritious"
+      ],
+      "alternatives": [
+        "Egg Curry",
+        "Masala Omelette"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil/Butter"
+      ]
+    },
+    {
+      "id": "omelette",
+      "name": "Masala Omelette",
+      "calories": 220,
+      "servingSize": "2 eggs",
+      "macros": {
+        "protein": 16,
+        "carbs": 4,
+        "fat": 16
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Low carb",
+        "Versatile meal"
+      ],
+      "alternatives": [
+        "Egg Curry",
+        "Egg Bhurji"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil/Butter"
+      ]
+    },
+    {
+      "id": "paratha-paneer",
+      "name": "Paneer Paratha",
+      "calories": 380,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 12,
+        "carbs": 42,
+        "fat": 18
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Good protein from paneer",
+        "High in ghee/oil",
+        "Filling meal"
+      ],
+      "alternatives": [
+        "Paneer Paratha",
+        "Aloo Paratha"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Ghee/Butter"
+      ]
+    },
+    {
+      "id": "paratha-mooli",
+      "name": "Mooli Paratha",
+      "calories": 300,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 6,
+        "carbs": 40,
+        "fat": 14
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Radish (fiber and nutrients)",
+        "Whole wheat base",
+        "High in ghee"
+      ],
+      "alternatives": [
+        "Roti (Chapati)",
+        "Thepla"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee/Butter"
+      ]
+    },
+    {
+      "id": "paratha-gobi",
+      "name": "Gobi Paratha",
+      "calories": 310,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 7,
+        "carbs": 42,
+        "fat": 14
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Cauliflower (fiber)",
+        "Whole wheat",
+        "High in ghee"
+      ],
+      "alternatives": [
+        "Roti (Chapati)"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee/Butter"
+      ]
+    },
+    {
+      "id": "kulcha",
+      "name": "Amritsari Kulcha",
+      "calories": 320,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 8,
+        "carbs": 50,
+        "fat": 12
+      },
+      "fitnessScore": 45,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Refined flour",
+        "Potato filling",
+        "High glycemic"
+      ],
+      "alternatives": [
+        "Tandoori Roti",
+        "Amritsari Kulcha"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "Butter"
+      ]
+    },
+    {
+      "id": "bhatura",
+      "name": "Bhatura",
+      "calories": 250,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 6,
+        "carbs": 35,
+        "fat": 12
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried",
+        "Refined flour",
+        "Absorbs lot of oil"
+      ],
+      "alternatives": [
+        "Roti (Chapati)",
+        "Amritsari Kulcha"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Soda"
+      ]
+    },
+    {
+      "id": "stuffed-naan",
+      "name": "Stuffed Naan (Keema)",
+      "calories": 380,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 16,
+        "carbs": 48,
+        "fat": 14
+      },
+      "fitnessScore": 50,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Protein from meat",
+        "Refined flour",
+        "High calories"
+      ],
+      "alternatives": [
+        "Tandoori Roti"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "Butter"
+      ]
+    },
+    {
+      "id": "garlic-naan",
+      "name": "Garlic Naan",
+      "calories": 290,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 8,
+        "carbs": 46,
+        "fat": 10
+      },
+      "fitnessScore": 42,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Garlic (health benefits)",
+        "Refined flour",
+        "High glycemic"
+      ],
+      "alternatives": [
+        "Tandoori Roti"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "Butter"
+      ]
+    },
+    {
+      "id": "rumali-roti",
+      "name": "Rumali Roti",
+      "calories": 100,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 3,
+        "carbs": 20,
+        "fat": 1
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Thin and light",
+        "Refined flour",
+        "Low fat"
+      ],
+      "alternatives": [
+        "Tandoori Roti",
+        "Roti (Chapati)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida"
+      ]
+    },
+    {
+      "id": "lachha-paratha",
+      "name": "Lachha Paratha",
+      "calories": 280,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 6,
+        "carbs": 38,
+        "fat": 12
+      },
+      "fitnessScore": 45,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Layered and flaky",
+        "High in ghee",
+        "Refined flour (often)"
+      ],
+      "alternatives": [
+        "Tandoori Roti",
+        "Lachha Paratha"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Ghee",
+        "Maida (sometimes)"
+      ]
+    },
+    {
+      "id": "missi-roti",
+      "name": "Missi Roti",
+      "calories": 180,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 6,
+        "carbs": 28,
+        "fat": 6
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Besan (protein)",
+        "Whole wheat mix",
+        "Nutritious"
+      ],
+      "alternatives": [
+        "Bajra Roti",
+        "Jowar Roti"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Oil/Ghee"
+      ]
+    },
+    {
+      "id": "bajra-roti",
+      "name": "Bajra Roti",
+      "calories": 120,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 4,
+        "carbs": 22,
+        "fat": 2
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Millet (high fiber)",
+        "Gluten-free",
+        "Low fat"
+      ],
+      "alternatives": [
+        "Jowar Roti",
+        "Ragi Roti"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "jowar-roti",
+      "name": "Jowar Roti",
+      "calories": 110,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 3,
+        "carbs": 22,
+        "fat": 1
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Sorghum (high fiber)",
+        "Gluten-free",
+        "Low calorie"
+      ],
+      "alternatives": [
+        "Bajra Roti",
+        "Ragi Roti"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "ragi-roti",
+      "name": "Ragi Roti",
+      "calories": 115,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 4,
+        "carbs": 20,
+        "fat": 2
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Finger millet (calcium)",
+        "High fiber",
+        "Gluten-free"
+      ],
+      "alternatives": [
+        "Bajra Roti",
+        "Jowar Roti"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "makki-roti",
+      "name": "Makki di Roti",
+      "calories": 130,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 3,
+        "carbs": 24,
+        "fat": 3
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Corn (fiber)",
+        "Traditional Punjabi",
+        "Pairs with sarson ka saag"
+      ],
+      "alternatives": [
+        "Bajra Roti",
+        "Roti (Chapati)"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Ghee (if added)"
+      ]
+    },
+    {
+      "id": "sarson-saag",
+      "name": "Sarson ka Saag",
+      "calories": 180,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 6,
+        "carbs": 12,
+        "fat": 12
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Mustard greens (nutrients)",
+        "High in butter/ghee",
+        "Winter specialty"
+      ],
+      "alternatives": [
+        "Sarson ka Saag"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Butter/Ghee"
+      ]
+    },
+    {
+      "id": "bhindi-masala",
+      "name": "Bhindi Masala",
+      "calories": 160,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 3,
+        "carbs": 18,
+        "fat": 10
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Okra (fiber)",
+        "Low calorie",
+        "Can be oily"
+      ],
+      "alternatives": [
+        "Bhindi Masala",
+        "Vegetable Pulao"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "karela-fry",
+      "name": "Karela Fry (Bitter Gourd)",
+      "calories": 140,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 2,
+        "carbs": 12,
+        "fat": 10
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Blood sugar control",
+        "Low calorie",
+        "Nutrient dense"
+      ],
+      "alternatives": [
+        "Karela Fry (Bitter Gourd)"
+      ],
+      "glycemicLoad": "Very Low",
+      "hiddenJunk": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "lauki-sabzi",
+      "name": "Lauki Sabzi (Bottle Gourd)",
+      "calories": 100,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 2,
+        "carbs": 14,
+        "fat": 5
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Very low calorie",
+        "Hydrating vegetable",
+        "Easy to digest"
+      ],
+      "alternatives": [
+        "Lauki Sabzi (Bottle Gourd)",
+        "Vegetable Pulao"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "tinda-sabzi",
+      "name": "Tinda Sabzi",
+      "calories": 110,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 2,
+        "carbs": 15,
+        "fat": 6
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Low calorie",
+        "Fiber rich",
+        "Light vegetable"
+      ],
+      "alternatives": [
+        "Lauki Sabzi (Bottle Gourd)",
+        "Vegetable Pulao"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "methi-sabzi",
+      "name": "Methi Sabzi (Fenugreek)",
+      "calories": 120,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 4,
+        "carbs": 12,
+        "fat": 7
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Fenugreek (medicinal)",
+        "Blood sugar control",
+        "Nutrient dense"
+      ],
+      "alternatives": [
+        "Palak Paneer",
+        "Sarson ka Saag"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "dum-aloo",
+      "name": "Dum Aloo",
+      "calories": 280,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 4,
+        "carbs": 38,
+        "fat": 14
+      },
+      "fitnessScore": 50,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Potato (high carb)",
+        "Rich gravy",
+        "High in oil"
+      ],
+      "alternatives": [
+        "Aloo Gobi",
+        "Vegetable Pulao"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Oil",
+        "Cream",
+        "Cashew paste"
+      ]
+    },
+    {
+      "id": "shahi-paneer",
+      "name": "Shahi Paneer",
+      "calories": 420,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 16,
+        "carbs": 18,
+        "fat": 32
+      },
+      "fitnessScore": 45,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High protein",
+        "Very high fat (cream)",
+        "Rich and creamy"
+      ],
+      "alternatives": [
+        "Paneer Tikka",
+        "Palak Paneer"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Cream",
+        "Butter",
+        "Cashew paste",
+        "Sugar"
+      ]
+    },
+    {
+      "id": "kadai-paneer",
+      "name": "Kadai Paneer",
+      "calories": 340,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 18,
+        "carbs": 12,
+        "fat": 26
+      },
+      "fitnessScore": 60,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "Contains vegetables",
+        "High in oil"
+      ],
+      "alternatives": [
+        "Paneer Tikka",
+        "Palak Paneer"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil",
+        "Butter"
+      ]
+    },
+    {
+      "id": "matar-paneer",
+      "name": "Matar Paneer",
+      "calories": 320,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 16,
+        "carbs": 20,
+        "fat": 20
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Good protein",
+        "Peas (fiber)",
+        "Moderate fat"
+      ],
+      "alternatives": [
+        "Palak Paneer",
+        "Paneer Tikka"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Oil",
+        "Cream (sometimes)"
+      ]
+    },
+    {
+      "id": "paneer-do-pyaza",
+      "name": "Paneer Do Pyaza",
+      "calories": 300,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 18,
+        "carbs": 16,
+        "fat": 20
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "High protein",
+        "Onions (antioxidants)",
+        "Moderate oil"
+      ],
+      "alternatives": [
+        "Paneer Tikka",
+        "Kadai Paneer"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "paneer-bhurji",
+      "name": "Paneer Bhurji",
+      "calories": 280,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 20,
+        "carbs": 8,
+        "fat": 20
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Low carb",
+        "Quick meal"
+      ],
+      "alternatives": [
+        "Egg Bhurji",
+        "Paneer Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil/Butter"
+      ]
+    },
+    {
+      "id": "sev-puri",
+      "name": "Sev Puri",
+      "calories": 280,
+      "servingSize": "1 plate (6 pieces)",
+      "macros": {
+        "protein": 5,
+        "carbs": 38,
+        "fat": 14
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried puris",
+        "Fried sev",
+        "High in trans fats"
+      ],
+      "alternatives": [
+        "Bhel Puri",
+        "Sprouts Chaat"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Sev",
+        "Sugar in chutney"
+      ]
+    },
+    {
+      "id": "dahi-puri",
+      "name": "Dahi Puri",
+      "calories": 300,
+      "servingSize": "1 plate (6 pieces)",
+      "macros": {
+        "protein": 6,
+        "carbs": 40,
+        "fat": 14
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried puris",
+        "Yogurt (probiotic)",
+        "High in oil and sugar"
+      ],
+      "alternatives": [
+        "Bhel Puri",
+        "Dahi Vada"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Sugar"
+      ]
+    },
+    {
+      "id": "ragda-pattice",
+      "name": "Ragda Pattice",
+      "calories": 380,
+      "servingSize": "2 pieces + ragda",
+      "macros": {
+        "protein": 10,
+        "carbs": 52,
+        "fat": 16
+      },
+      "fitnessScore": 40,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Protein from peas",
+        "Deep fried patties",
+        "High carbs"
+      ],
+      "alternatives": [
+        "Ragda Pattice",
+        "Sprouts Chaat"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Potato (high carb)"
+      ]
+    },
+    {
+      "id": "dahi-vada",
+      "name": "Dahi Vada",
+      "calories": 220,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 8,
+        "carbs": 28,
+        "fat": 10
+      },
+      "fitnessScore": 55,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Yogurt (probiotic)",
+        "Vadas are fried",
+        "Soaked (less oil)"
+      ],
+      "alternatives": [
+        "Cucumber Raita",
+        "Chaas"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil (frying)",
+        "Sugar"
+      ]
+    },
+    {
+      "id": "papdi-chaat",
+      "name": "Papdi Chaat",
+      "calories": 320,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 7,
+        "carbs": 42,
+        "fat": 16
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried papdis",
+        "Yogurt (probiotic)",
+        "High in sugar and oil"
+      ],
+      "alternatives": [
+        "Sprouts Chaat",
+        "Fruit Chaat"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Maida",
+        "Sugar",
+        "Sev"
+      ]
+    },
+    {
+      "id": "aloo-chaat",
+      "name": "Aloo Chaat",
+      "calories": 260,
+      "servingSize": "1 plate",
+      "macros": {
+        "protein": 5,
+        "carbs": 42,
+        "fat": 10
+      },
+      "fitnessScore": 45,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Potato (high carb)",
+        "Contains spices",
+        "Can be oily"
+      ],
+      "alternatives": [
+        "Sprouts Chaat",
+        "Fruit Chaat"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Oil",
+        "Sugar in chutney"
+      ]
+    },
+    {
+      "id": "fruit-chaat",
+      "name": "Fruit Chaat",
+      "calories": 120,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 2,
+        "carbs": 28,
+        "fat": 1
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Fresh fruits (vitamins)",
+        "Low calorie",
+        "Natural sugars"
+      ],
+      "alternatives": [
+        "Fruit Salad"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Chaat masala (salt)"
+      ]
+    },
+    {
+      "id": "sprouts-chaat",
+      "name": "Sprouts Chaat",
+      "calories": 180,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 10,
+        "carbs": 28,
+        "fat": 4
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Fiber rich",
+        "Very nutritious"
+      ],
+      "alternatives": [
+        "Fruit Chaat",
+        "Sprouts Chaat"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "corn-chaat",
+      "name": "Sweet Corn Chaat",
+      "calories": 200,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 5,
+        "carbs": 38,
+        "fat": 5
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Corn (fiber)",
+        "Low fat",
+        "Tasty and filling"
+      ],
+      "alternatives": [
+        "Sprouts Chaat",
+        "Fruit Chaat"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Butter (if added)"
+      ]
+    },
+    {
+      "id": "peanut-chaat",
+      "name": "Peanut Chaat",
+      "calories": 240,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 10,
+        "carbs": 18,
+        "fat": 16
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Protein from peanuts",
+        "Healthy fats",
+        "High calorie"
+      ],
+      "alternatives": [
+        "Sprouts Chaat",
+        "Roasted Peanuts"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Oil (if fried)"
+      ]
+    },
+    {
+      "id": "barfi",
+      "name": "Barfi (Milk Fudge)",
+      "calories": 160,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 3,
+        "carbs": 24,
+        "fat": 7
+      },
+      "fitnessScore": 20,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High sugar",
+        "Condensed milk",
+        "Festive sweet"
+      ],
+      "alternatives": [
+        "Dates",
+        "Almonds (Raw/Roasted)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar",
+        "Ghee",
+        "Condensed milk"
+      ]
+    },
+    {
+      "id": "ladoo",
+      "name": "Besan Ladoo",
+      "calories": 140,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 3,
+        "carbs": 18,
+        "fat": 7
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Besan (some protein)",
+        "High sugar and ghee",
+        "Traditional sweet"
+      ],
+      "alternatives": [
+        "Dates",
+        "Besan Ladoo"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar",
+        "Ghee"
+      ]
+    },
+    {
+      "id": "halwa",
+      "name": "Gajar Halwa (Carrot)",
+      "calories": 280,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 4,
+        "carbs": 42,
+        "fat": 12
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Carrots (vitamin A)",
+        "High sugar and ghee",
+        "Calorie dense"
+      ],
+      "alternatives": [
+        "Gajar Halwa (Carrot)",
+        "Fruit Salad"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar",
+        "Ghee",
+        "Condensed milk"
+      ]
+    },
+    {
+      "id": "kheer",
+      "name": "Rice Kheer",
+      "calories": 220,
+      "servingSize": "1 bowl",
+      "macros": {
+        "protein": 5,
+        "carbs": 38,
+        "fat": 6
+      },
+      "fitnessScore": 40,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Milk (calcium)",
+        "High sugar",
+        "Comfort dessert"
+      ],
+      "alternatives": [
+        "Rice Kheer",
+        "Shrikhand"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar",
+        "Full cream milk"
+      ]
+    },
+    {
+      "id": "shrikhand",
+      "name": "Shrikhand",
+      "calories": 180,
+      "servingSize": "1 bowl (150g)",
+      "macros": {
+        "protein": 6,
+        "carbs": 32,
+        "fat": 4
+      },
+      "fitnessScore": 45,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Yogurt (probiotic)",
+        "High sugar",
+        "Festive dessert"
+      ],
+      "alternatives": [
+        "Shrikhand"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar",
+        "Food color"
+      ]
+    },
+    {
+      "id": "sandesh",
+      "name": "Sandesh",
+      "calories": 130,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 4,
+        "carbs": 22,
+        "fat": 3
+      },
+      "fitnessScore": 40,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Cottage cheese base",
+        "High sugar",
+        "Bengali sweet"
+      ],
+      "alternatives": [
+        "Paneer Tikka",
+        "Fruit Salad"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Sugar"
+      ]
+    },
+    {
+      "id": "kurkure-masala-munch",
+      "name": "Kurkure Masala Munch",
+      "calories": 520,
+      "servingSize": "100g (1 pack)",
+      "macros": {
+        "protein": 6,
+        "carbs": 60,
+        "fat": 28
+      },
+      "fitnessScore": 10,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Ultra-processed snack",
+        "Very high in trans fats",
+        "Artificial flavors and colors"
+      ],
+      "alternatives": [
+        "Roasted Makhana (Fox Nuts)",
+        "Roasted Chana (Chickpeas)",
+        "Air-popped Popcorn"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Trans fats",
+        "MSG",
+        "Artificial colors",
+        "Refined oil",
+        "Maida"
+      ]
+    },
+    {
+      "id": "lays-classic",
+      "name": "Lays Classic Salted",
+      "calories": 536,
+      "servingSize": "100g (1 pack)",
+      "macros": {
+        "protein": 6,
+        "carbs": 52,
+        "fat": 34
+      },
+      "fitnessScore": 15,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried potato chips",
+        "Very high in fat and sodium",
+        "Zero nutritional value"
+      ],
+      "alternatives": [
+        "Banana Chips (Kerala Style)",
+        "Roasted Chana (Chickpeas)",
+        "Roasted Makhana (Fox Nuts)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Trans fats",
+        "Excess sodium",
+        "Refined oil",
+        "Acrylamide"
+      ]
+    },
+    {
+      "id": "lays-magic-masala",
+      "name": "Lays Magic Masala",
+      "calories": 528,
+      "servingSize": "100g (1 pack)",
+      "macros": {
+        "protein": 6,
+        "carbs": 54,
+        "fat": 32
+      },
+      "fitnessScore": 12,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried chips",
+        "Artificial flavoring",
+        "High sodium and fat"
+      ],
+      "alternatives": [
+        "Banana Chips (Kerala Style)",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Trans fats",
+        "MSG",
+        "Artificial flavors",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "bingo-mad-angles",
+      "name": "Bingo Mad Angles",
+      "calories": 510,
+      "servingSize": "100g (1 pack)",
+      "macros": {
+        "protein": 7,
+        "carbs": 58,
+        "fat": 28
+      },
+      "fitnessScore": 12,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Ultra-processed",
+        "High in trans fats",
+        "Artificial ingredients"
+      ],
+      "alternatives": [
+        "Roasted Makhana (Fox Nuts)",
+        "Banana Chips (Kerala Style)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Trans fats",
+        "MSG",
+        "Artificial colors",
+        "Maida"
+      ]
+    },
+    {
+      "id": "haldirams-aloo-bhujia",
+      "name": "Haldiram's Aloo Bhujia",
+      "calories": 520,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 10,
+        "carbs": 48,
+        "fat": 32
+      },
+      "fitnessScore": 20,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried namkeen",
+        "Very high in oil",
+        "High sodium content"
+      ],
+      "alternatives": [
+        "Roasted Chana (Chickpeas)",
+        "Roasted Peanuts"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Trans fats",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "haldirams-moong-dal",
+      "name": "Haldiram's Moong Dal",
+      "calories": 480,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 18,
+        "carbs": 42,
+        "fat": 26
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Protein from moong dal",
+        "Deep fried",
+        "High in oil and salt"
+      ],
+      "alternatives": [
+        "Haldiram's Moong Dal",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil",
+        "Trans fats",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "haldirams-bhujia-sev",
+      "name": "Haldiram's Bhujia Sev",
+      "calories": 540,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 12,
+        "carbs": 46,
+        "fat": 34
+      },
+      "fitnessScore": 18,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried sev",
+        "Very high in fat",
+        "Excess sodium"
+      ],
+      "alternatives": [
+        "Roasted Chana (Chickpeas)",
+        "Roasted Makhana (Fox Nuts)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Trans fats",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "parle-g",
+      "name": "Parle-G Biscuits",
+      "calories": 462,
+      "servingSize": "100g (20 biscuits)",
+      "macros": {
+        "protein": 7,
+        "carbs": 75,
+        "fat": 14
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Refined flour and sugar",
+        "High glycemic index",
+        "Minimal nutrition"
+      ],
+      "alternatives": [
+        "Parle-G Biscuits"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Palm oil",
+        "Trans fats"
+      ]
+    },
+    {
+      "id": "britannia-good-day",
+      "name": "Britannia Good Day Butter",
+      "calories": 480,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 6,
+        "carbs": 68,
+        "fat": 20
+      },
+      "fitnessScore": 20,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High sugar content",
+        "Refined flour",
+        "Trans fats from butter"
+      ],
+      "alternatives": [
+        "Parle-G Biscuits",
+        "Britannia Good Day Butter"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Trans fats",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "britannia-marie-gold",
+      "name": "Britannia Marie Gold",
+      "calories": 443,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 8,
+        "carbs": 74,
+        "fat": 12
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Lower fat than other biscuits",
+        "Still refined flour and sugar",
+        "High glycemic"
+      ],
+      "alternatives": [
+        "Parle-G Biscuits"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "sunfeast-dark-fantasy",
+      "name": "Sunfeast Dark Fantasy",
+      "calories": 510,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 6,
+        "carbs": 64,
+        "fat": 26
+      },
+      "fitnessScore": 15,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Very high in sugar and fat",
+        "Chocolate coating adds calories",
+        "Ultra-processed"
+      ],
+      "alternatives": [
+        "Sunfeast Dark Fantasy",
+        "Britannia Good Day Butter"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Trans fats",
+        "Palm oil",
+        "Cocoa butter substitute"
+      ]
+    },
+    {
+      "id": "hide-seek",
+      "name": "Hide & Seek Biscuits",
+      "calories": 490,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 7,
+        "carbs": 66,
+        "fat": 22
+      },
+      "fitnessScore": 18,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High sugar and fat",
+        "Chocolate chips add calories",
+        "Refined flour base"
+      ],
+      "alternatives": [
+        "Britannia Good Day Butter",
+        "Parle-G Biscuits"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Trans fats",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "oreo",
+      "name": "Oreo Biscuits",
+      "calories": 480,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 5,
+        "carbs": 70,
+        "fat": 20
+      },
+      "fitnessScore": 12,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Very high sugar",
+        "Trans fats in cream",
+        "Zero nutritional value"
+      ],
+      "alternatives": [
+        "Sunfeast Dark Fantasy",
+        "Britannia Good Day Butter"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Trans fats",
+        "Palm oil",
+        "Artificial flavors"
+      ]
+    },
+    {
+      "id": "bourbon",
+      "name": "Bourbon Biscuits",
+      "calories": 495,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 6,
+        "carbs": 68,
+        "fat": 22
+      },
+      "fitnessScore": 15,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "High sugar and fat",
+        "Chocolate cream filling",
+        "Ultra-processed"
+      ],
+      "alternatives": [
+        "Sunfeast Dark Fantasy",
+        "Parle-G Biscuits"
+      ],
+      "glycemicLoad": "Very High",
+      "hiddenJunk": [
+        "Maida",
+        "Sugar",
+        "Trans fats",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "monaco-biscuits",
+      "name": "Monaco Salted Biscuits",
+      "calories": 456,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 9,
+        "carbs": 68,
+        "fat": 16
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Lower fat than sweet biscuits",
+        "High sodium",
+        "Refined flour"
+      ],
+      "alternatives": [
+        "Monaco Salted Biscuits",
+        "Khakhra (Gujarati Snack)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "Excess sodium",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "krackjack",
+      "name": "Krackjack Biscuits",
+      "calories": 465,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 8,
+        "carbs": 70,
+        "fat": 16
+      },
+      "fitnessScore": 28,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Salted crackers",
+        "High sodium and refined flour",
+        "Better than sweet biscuits"
+      ],
+      "alternatives": [
+        "Monaco Salted Biscuits",
+        "Khakhra (Gujarati Snack)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "Excess sodium",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "maggi",
+      "name": "Maggi 2-Minute Noodles",
+      "calories": 310,
+      "servingSize": "1 pack (70g)",
+      "macros": {
+        "protein": 9,
+        "carbs": 46,
+        "fat": 10
+      },
+      "fitnessScore": 20,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Ultra-processed instant noodles",
+        "Very high sodium (tastemaker)",
+        "Refined flour (maida)"
+      ],
+      "alternatives": [
+        "Maggi 2-Minute Noodles",
+        "Oats Upma"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "MSG",
+        "Excess sodium",
+        "Palm oil",
+        "Trans fats"
+      ]
+    },
+    {
+      "id": "yippee-noodles",
+      "name": "Yippee Noodles",
+      "calories": 320,
+      "servingSize": "1 pack (70g)",
+      "macros": {
+        "protein": 8,
+        "carbs": 48,
+        "fat": 11
+      },
+      "fitnessScore": 18,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Instant noodles (ultra-processed)",
+        "High sodium and MSG",
+        "Refined flour"
+      ],
+      "alternatives": [
+        "Maggi 2-Minute Noodles"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "MSG",
+        "Excess sodium",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "top-ramen",
+      "name": "Top Ramen Noodles",
+      "calories": 315,
+      "servingSize": "1 pack (70g)",
+      "macros": {
+        "protein": 8,
+        "carbs": 47,
+        "fat": 10
+      },
+      "fitnessScore": 19,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Instant noodles",
+        "High sodium content",
+        "Ultra-processed"
+      ],
+      "alternatives": [
+        "Maggi 2-Minute Noodles"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Maida",
+        "MSG",
+        "Excess sodium",
+        "Palm oil"
+      ]
+    },
+    {
+      "id": "uncle-chips",
+      "name": "Uncle Chipps",
+      "calories": 530,
+      "servingSize": "100g (1 pack)",
+      "macros": {
+        "protein": 6,
+        "carbs": 54,
+        "fat": 32
+      },
+      "fitnessScore": 14,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried potato chips",
+        "High in trans fats",
+        "Excess sodium"
+      ],
+      "alternatives": [
+        "Banana Chips (Kerala Style)",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Trans fats",
+        "Refined oil",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "bingo-yumitos",
+      "name": "Bingo Yumitos",
+      "calories": 515,
+      "servingSize": "100g (1 pack)",
+      "macros": {
+        "protein": 6,
+        "carbs": 56,
+        "fat": 30
+      },
+      "fitnessScore": 13,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Fried corn chips",
+        "High fat and sodium",
+        "Artificial flavors"
+      ],
+      "alternatives": [
+        "Cornitos Nacho Chips",
+        "Roasted Makhana (Fox Nuts)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Trans fats",
+        "MSG",
+        "Artificial colors",
+        "Refined oil"
+      ]
+    },
+    {
+      "id": "too-yumm",
+      "name": "Too Yumm Multigrain Chips",
+      "calories": 450,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 8,
+        "carbs": 58,
+        "fat": 22
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Multigrain (better than regular)",
+        "Still fried and processed",
+        "High in oil"
+      ],
+      "alternatives": [
+        "Roasted Makhana (Fox Nuts)",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "cornitos-nachos",
+      "name": "Cornitos Nacho Chips",
+      "calories": 480,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 7,
+        "carbs": 62,
+        "fat": 24
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Corn-based (better than potato)",
+        "Still fried",
+        "High sodium"
+      ],
+      "alternatives": [
+        "Cornitos Nacho Chips",
+        "Roasted Makhana (Fox Nuts)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Excess sodium",
+        "Artificial flavors"
+      ]
+    },
+    {
+      "id": "makhana-roasted",
+      "name": "Roasted Makhana (Fox Nuts)",
+      "calories": 347,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 10,
+        "carbs": 76,
+        "fat": 1
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Very low fat",
+        "High protein for a snack",
+        "Rich in antioxidants"
+      ],
+      "alternatives": [
+        "Roasted Chana (Chickpeas)",
+        "Roasted Peanuts"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None (if plain roasted)"
+      ]
+    },
+    {
+      "id": "roasted-chana",
+      "name": "Roasted Chana (Chickpeas)",
+      "calories": 360,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 20,
+        "carbs": 58,
+        "fat": 6
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein and fiber",
+        "Low fat",
+        "Nutrient dense"
+      ],
+      "alternatives": [
+        "Roasted Peanuts",
+        "Roasted Makhana (Fox Nuts)"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None (if plain roasted)"
+      ]
+    },
+    {
+      "id": "roasted-peanuts",
+      "name": "Roasted Peanuts",
+      "calories": 567,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 26,
+        "carbs": 16,
+        "fat": 49
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Healthy fats",
+        "Calorie dense (portion control)"
+      ],
+      "alternatives": [
+        "Roasted Chana (Chickpeas)",
+        "Almonds (Raw/Roasted)"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Excess salt (if salted)"
+      ]
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds (Raw/Roasted)",
+      "calories": 579,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 21,
+        "carbs": 22,
+        "fat": 50
+      },
+      "fitnessScore": 95,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Excellent healthy fats",
+        "High protein and fiber",
+        "Rich in vitamin E"
+      ],
+      "alternatives": [
+        "Walnuts",
+        "Cashews (Raw/Roasted)"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews (Raw/Roasted)",
+      "calories": 553,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 18,
+        "carbs": 30,
+        "fat": 44
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Good protein and healthy fats",
+        "Higher carbs than other nuts",
+        "Rich in minerals"
+      ],
+      "alternatives": [
+        "Almonds (Raw/Roasted)",
+        "Walnuts"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Excess salt (if salted)"
+      ]
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "calories": 654,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 15,
+        "carbs": 14,
+        "fat": 65
+      },
+      "fitnessScore": 95,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Omega-3 fatty acids",
+        "Brain health benefits",
+        "Antioxidant rich"
+      ],
+      "alternatives": [
+        "Almonds (Raw/Roasted)",
+        "Walnuts"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "popcorn-plain",
+      "name": "Air-Popped Popcorn",
+      "calories": 387,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 13,
+        "carbs": 78,
+        "fat": 5
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Whole grain snack",
+        "High fiber",
+        "Low calorie (when air-popped)"
+      ],
+      "alternatives": [
+        "Roasted Makhana (Fox Nuts)",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Butter/Salt (if added)"
+      ]
+    },
+    {
+      "id": "khakhra",
+      "name": "Khakhra (Gujarati Snack)",
+      "calories": 380,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 12,
+        "carbs": 68,
+        "fat": 8
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Whole wheat base",
+        "Low fat (roasted)",
+        "Crunchy and filling"
+      ],
+      "alternatives": [
+        "Monaco Salted Biscuits",
+        "Thepla"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Oil (minimal)",
+        "Salt"
+      ]
+    },
+    {
+      "id": "mathri",
+      "name": "Mathri",
+      "calories": 480,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 8,
+        "carbs": 52,
+        "fat": 26
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried snack",
+        "High in trans fats",
+        "Traditional but unhealthy"
+      ],
+      "alternatives": [
+        "Khakhra (Gujarati Snack)",
+        "Mathri"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Trans fats",
+        "Maida"
+      ]
+    },
+    {
+      "id": "chakli-murukku",
+      "name": "Chakli/Murukku",
+      "calories": 500,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 10,
+        "carbs": 54,
+        "fat": 28
+      },
+      "fitnessScore": 30,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried spiral snack",
+        "High in oil",
+        "Festive snack"
+      ],
+      "alternatives": [
+        "Chakli/Murukku",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Trans fats"
+      ]
+    },
+    {
+      "id": "mixture-namkeen",
+      "name": "Mixture Namkeen",
+      "calories": 510,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 12,
+        "carbs": 50,
+        "fat": 30
+      },
+      "fitnessScore": 25,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried mix",
+        "Very high in oil and salt",
+        "Multiple fried ingredients"
+      ],
+      "alternatives": [
+        "Roasted Chana (Chickpeas)",
+        "Roasted Makhana (Fox Nuts)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Trans fats",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "chivda",
+      "name": "Poha Chivda",
+      "calories": 460,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 8,
+        "carbs": 58,
+        "fat": 22
+      },
+      "fitnessScore": 35,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Fried poha snack",
+        "High in oil",
+        "Contains peanuts (some protein)"
+      ],
+      "alternatives": [
+        "Oats Poha",
+        "Roasted Makhana (Fox Nuts)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Sugar",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "nimbu-papad",
+      "name": "Nimbu Papad (Fried)",
+      "calories": 320,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 8,
+        "carbs": 42,
+        "fat": 14
+      },
+      "fitnessScore": 40,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Lentil-based (protein)",
+        "Deep fried",
+        "High sodium"
+      ],
+      "alternatives": [
+        "Khakhra (Gujarati Snack)",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined oil",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "banana-chips",
+      "name": "Banana Chips (Kerala Style)",
+      "calories": 519,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 2,
+        "carbs": 58,
+        "fat": 31
+      },
+      "fitnessScore": 20,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried banana slices",
+        "Very high in oil",
+        "High calorie density"
+      ],
+      "alternatives": [
+        "Fresh Fruit"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Coconut oil (saturated fat)",
+        "Salt"
+      ]
+    },
+    {
+      "id": "tapioca-chips",
+      "name": "Tapioca Chips",
+      "calories": 505,
+      "servingSize": "100g",
+      "macros": {
+        "protein": 1,
+        "carbs": 62,
+        "fat": 28
+      },
+      "fitnessScore": 18,
+      "verdict": "Bad",
+      "goodBadReasons": [
+        "Deep fried tapioca",
+        "Very high in oil",
+        "Minimal nutrition"
+      ],
+      "alternatives": [
+        "Roasted Makhana (Fox Nuts)",
+        "Roasted Chana (Chickpeas)"
+      ],
+      "glycemicLoad": "High",
+      "hiddenJunk": [
+        "Refined oil",
+        "Excess sodium"
+      ]
+    },
+    {
+      "id": "baked-samosa",
+      "name": "Baked Samosa",
+      "calories": 150,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 4,
+        "carbs": 28,
+        "fat": 4
+      },
+      "fitnessScore": 65,
+      "verdict": "Moderate",
+      "goodBadReasons": [
+        "Baked instead of fried",
+        "Lower fat content",
+        "Still contains refined flour"
+      ],
+      "alternatives": [
+        "Air-fried Samosa",
+        "Dhokla"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined flour"
+      ]
+    },
+    {
+      "id": "air-fried-samosa",
+      "name": "Air-fried Samosa",
+      "calories": 140,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 4,
+        "carbs": 27,
+        "fat": 3
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Minimal oil used",
+        "Lower calories than deep-fried",
+        "Crispy texture maintained"
+      ],
+      "alternatives": [
+        "Baked Samosa",
+        "Dhokla"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Refined flour"
+      ]
+    },
+    {
+      "id": "grilled-chicken-tikka",
+      "name": "Grilled Chicken Tikka",
+      "calories": 180,
+      "servingSize": "150g (6-7 pieces)",
+      "macros": {
+        "protein": 28,
+        "carbs": 4,
+        "fat": 6
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein, low fat",
+        "Grilled, not fried",
+        "Rich in vitamins"
+      ],
+      "alternatives": [
+        "Tandoori Chicken",
+        "Grilled Chicken Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "tandoori-chicken-2",
+      "name": "Tandoori Chicken",
+      "calories": 200,
+      "servingSize": "1 leg piece (150g)",
+      "macros": {
+        "protein": 26,
+        "carbs": 3,
+        "fat": 9
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein content",
+        "Cooked in tandoor (clay oven)",
+        "Moderate fat"
+      ],
+      "alternatives": [
+        "Grilled Chicken Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Food coloring (sometimes)"
+      ]
+    },
+    {
+      "id": "palak-paneer-2",
+      "name": "Palak Paneer",
+      "calories": 280,
+      "servingSize": "1 bowl (250g)",
+      "macros": {
+        "protein": 14,
+        "carbs": 12,
+        "fat": 20
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Rich in iron from spinach",
+        "Good protein source",
+        "Moderate fat content"
+      ],
+      "alternatives": [
+        "Paneer Tikka",
+        "Tofu Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "Cream (in some recipes)"
+      ]
+    },
+    {
+      "id": "paneer-tikka-2",
+      "name": "Paneer Tikka",
+      "calories": 220,
+      "servingSize": "150g (6-7 pieces)",
+      "macros": {
+        "protein": 16,
+        "carbs": 8,
+        "fat": 14
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Grilled preparation",
+        "High protein",
+        "Lower fat than curries"
+      ],
+      "alternatives": [
+        "Tofu Tikka",
+        "Palak Paneer"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "yellow-dal-tadka",
+      "name": "Yellow Dal Tadka",
+      "calories": 180,
+      "servingSize": "1 bowl (250g)",
+      "macros": {
+        "protein": 10,
+        "carbs": 28,
+        "fat": 4
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High in protein and fiber",
+        "Low fat content",
+        "Easy to digest"
+      ],
+      "alternatives": [
+        "Moong Dal",
+        "Yellow Dal Tadka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "moong-dal",
+      "name": "Moong Dal",
+      "calories": 160,
+      "servingSize": "1 bowl (250g)",
+      "macros": {
+        "protein": 12,
+        "carbs": 24,
+        "fat": 2
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Very high in protein",
+        "Low fat",
+        "Rich in vitamins"
+      ],
+      "alternatives": [
+        "Yellow Dal Tadka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "plain-dosa",
+      "name": "Plain Dosa",
+      "calories": 120,
+      "servingSize": "1 large",
+      "macros": {
+        "protein": 4,
+        "carbs": 22,
+        "fat": 2
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Fermented batter",
+        "Low fat",
+        "No heavy filling"
+      ],
+      "alternatives": [
+        "Ragi Dosa",
+        "Idli"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "Minimal oil"
+      ]
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "calories": 110,
+      "servingSize": "1 large",
+      "macros": {
+        "protein": 5,
+        "carbs": 20,
+        "fat": 2
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High in calcium and iron",
+        "Finger millet is nutritious",
+        "Low glycemic index"
+      ],
+      "alternatives": [
+        "Plain Dosa",
+        "Idli"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "chicken-pulao",
+      "name": "Chicken Pulao",
+      "calories": 320,
+      "servingSize": "1 plate (300g)",
+      "macros": {
+        "protein": 22,
+        "carbs": 42,
+        "fat": 8
+      },
+      "fitnessScore": 70,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Balanced meal",
+        "Good protein from chicken",
+        "Less oil than biryani"
+      ],
+      "alternatives": [
+        "Chicken Biryani",
+        "Brown Rice Pulao"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "multigrain-roti",
+      "name": "Multigrain Roti",
+      "calories": 90,
+      "servingSize": "1 roti",
+      "macros": {
+        "protein": 4,
+        "carbs": 16,
+        "fat": 1
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High in fiber",
+        "Multiple grain benefits",
+        "Low fat"
+      ],
+      "alternatives": [
+        "Bajra Roti",
+        "Jowar Roti"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "bajra-roti-2",
+      "name": "Bajra Roti",
+      "calories": 95,
+      "servingSize": "1 roti",
+      "macros": {
+        "protein": 4,
+        "carbs": 17,
+        "fat": 1.5
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Rich in iron",
+        "High fiber content",
+        "Keeps you full longer"
+      ],
+      "alternatives": [
+        "Multigrain Roti",
+        "Jowar Roti"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "tandoori-roti",
+      "name": "Tandoori Roti",
+      "calories": 100,
+      "servingSize": "1 roti",
+      "macros": {
+        "protein": 3,
+        "carbs": 20,
+        "fat": 1
+      },
+      "fitnessScore": 75,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Cooked without oil",
+        "Whole wheat flour",
+        "Low calorie"
+      ],
+      "alternatives": [
+        "Roti (Chapati)",
+        "Multigrain Roti"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "fruit-salad",
+      "name": "Fruit Salad",
+      "calories": 80,
+      "servingSize": "1 bowl (150g)",
+      "macros": {
+        "protein": 1,
+        "carbs": 20,
+        "fat": 0.5
+      },
+      "fitnessScore": 95,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Rich in vitamins",
+        "High in fiber",
+        "Natural sugars"
+      ],
+      "alternatives": [
+        "Fresh Fruit",
+        "Dates"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "oats-poha",
+      "name": "Oats Poha",
+      "calories": 180,
+      "servingSize": "1 bowl (200g)",
+      "macros": {
+        "protein": 6,
+        "carbs": 32,
+        "fat": 4
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High in fiber",
+        "Low glycemic index",
+        "Heart healthy"
+      ],
+      "alternatives": [
+        "Oats Poha",
+        "Upma"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "oats-upma",
+      "name": "Oats Upma",
+      "calories": 170,
+      "servingSize": "1 bowl (200g)",
+      "macros": {
+        "protein": 6,
+        "carbs": 30,
+        "fat": 4
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High fiber content",
+        "Keeps you full",
+        "Low fat"
+      ],
+      "alternatives": [
+        "Quinoa Upma",
+        "Poha"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "quinoa-upma",
+      "name": "Quinoa Upma",
+      "calories": 190,
+      "servingSize": "1 bowl (200g)",
+      "macros": {
+        "protein": 8,
+        "carbs": 28,
+        "fat": 5
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Complete protein source",
+        "Rich in minerals",
+        "Gluten-free"
+      ],
+      "alternatives": [
+        "Oats Upma",
+        "Brown Rice Pulao"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "steamed-idli",
+      "name": "Steamed Idli",
+      "calories": 40,
+      "servingSize": "1 piece",
+      "macros": {
+        "protein": 2,
+        "carbs": 8,
+        "fat": 0.5
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Steamed, not fried",
+        "Fermented (probiotic)",
+        "Very low calorie"
+      ],
+      "alternatives": [
+        "Dhokla",
+        "Plain Dosa"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "tofu-tikka",
+      "name": "Tofu Tikka",
+      "calories": 160,
+      "servingSize": "150g",
+      "macros": {
+        "protein": 14,
+        "carbs": 6,
+        "fat": 9
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein, low carb",
+        "Plant-based protein",
+        "Rich in calcium"
+      ],
+      "alternatives": [
+        "Paneer Tikka",
+        "Tofu Tikka"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "grilled-chicken",
+      "name": "Grilled Chicken",
+      "calories": 165,
+      "servingSize": "150g",
+      "macros": {
+        "protein": 31,
+        "carbs": 0,
+        "fat": 4
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Very high protein",
+        "Very low fat",
+        "Zero carbs"
+      ],
+      "alternatives": [
+        "Grilled Chicken Tikka",
+        "Tandoori Chicken"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "fresh-fruit",
+      "name": "Fresh Fruit",
+      "calories": 60,
+      "servingSize": "1 medium fruit",
+      "macros": {
+        "protein": 1,
+        "carbs": 15,
+        "fat": 0.2
+      },
+      "fitnessScore": 95,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Natural vitamins",
+        "High in fiber",
+        "Natural sugars"
+      ],
+      "alternatives": [
+        "Fruit Salad",
+        "Dates"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "dates",
+      "name": "Dates",
+      "calories": 66,
+      "servingSize": "2 pieces",
+      "macros": {
+        "protein": 0.5,
+        "carbs": 18,
+        "fat": 0.1
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Natural sweetener",
+        "Rich in fiber",
+        "High in minerals"
+      ],
+      "alternatives": [
+        "Fresh Fruit",
+        "Almonds (Raw/Roasted)"
+      ],
+      "glycemicLoad": "Medium",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "brown-rice-khichdi",
+      "name": "Brown Rice Khichdi",
+      "calories": 220,
+      "servingSize": "1 bowl (250g)",
+      "macros": {
+        "protein": 8,
+        "carbs": 40,
+        "fat": 4
+      },
+      "fitnessScore": 85,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High in fiber",
+        "Complete meal",
+        "Easy to digest"
+      ],
+      "alternatives": [
+        "Brown Rice Khichdi",
+        "Khichdi"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "brown-rice-pulao",
+      "name": "Brown Rice Pulao",
+      "calories": 240,
+      "servingSize": "1 plate (250g)",
+      "macros": {
+        "protein": 6,
+        "carbs": 45,
+        "fat": 5
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Whole grain benefits",
+        "High fiber",
+        "Nutrient rich"
+      ],
+      "alternatives": [
+        "Brown Rice Pulao",
+        "Vegetable Pulao"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "sprouts-chaat-2",
+      "name": "Sprouts Chaat",
+      "calories": 120,
+      "servingSize": "1 bowl (150g)",
+      "macros": {
+        "protein": 8,
+        "carbs": 18,
+        "fat": 2
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Rich in enzymes",
+        "Very nutritious"
+      ],
+      "alternatives": [
+        "Fruit Chaat",
+        "Bhel Puri"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "grilled-fish",
+      "name": "Grilled Fish",
+      "calories": 180,
+      "servingSize": "150g",
+      "macros": {
+        "protein": 28,
+        "carbs": 0,
+        "fat": 7
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "High protein",
+        "Omega-3 fatty acids",
+        "Low carb"
+      ],
+      "alternatives": [
+        "Grilled Fish",
+        "Fish Curry"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "plain-lassi",
+      "name": "Plain Lassi",
+      "calories": 100,
+      "servingSize": "1 glass (200ml)",
+      "macros": {
+        "protein": 6,
+        "carbs": 12,
+        "fat": 3
+      },
+      "fitnessScore": 80,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Probiotic benefits",
+        "Good protein source",
+        "Cooling effect"
+      ],
+      "alternatives": [
+        "Buttermilk",
+        "Chaas"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "buttermilk",
+      "name": "Buttermilk",
+      "calories": 40,
+      "servingSize": "1 glass (200ml)",
+      "macros": {
+        "protein": 2,
+        "carbs": 5,
+        "fat": 1
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Very low calorie",
+        "Probiotic",
+        "Aids digestion"
+      ],
+      "alternatives": [
+        "Plain Lassi",
+        "Chaas"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    },
+    {
+      "id": "chaas-2",
+      "name": "Chaas",
+      "calories": 35,
+      "servingSize": "1 glass (200ml)",
+      "macros": {
+        "protein": 2,
+        "carbs": 4,
+        "fat": 1
+      },
+      "fitnessScore": 90,
+      "verdict": "Good",
+      "goodBadReasons": [
+        "Very low calorie",
+        "Digestive aid",
+        "Cooling beverage"
+      ],
+      "alternatives": [
+        "Buttermilk",
+        "Plain Lassi"
+      ],
+      "glycemicLoad": "Low",
+      "hiddenJunk": [
+        "None"
+      ]
+    }
+  ]
+}
