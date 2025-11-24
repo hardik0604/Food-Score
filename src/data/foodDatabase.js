@@ -4661,7 +4661,7 @@ export const foodDatabase = [
     ]
   },
   {
-    "id": "tandoori-chicken",
+    "id": "tandoori-chicken-2",
     "name": "Tandoori Chicken",
     "calories": 200,
     "servingSize": "1 leg piece (150g)",
@@ -4686,7 +4686,7 @@ export const foodDatabase = [
     ]
   },
   {
-    "id": "palak-paneer",
+    "id": "palak-paneer-2",
     "name": "Palak Paneer",
     "calories": 280,
     "servingSize": "1 bowl (250g)",
@@ -4712,7 +4712,7 @@ export const foodDatabase = [
     ]
   },
   {
-    "id": "paneer-tikka",
+    "id": "paneer-tikka-2",
     "name": "Paneer Tikka",
     "calories": 220,
     "servingSize": "150g (6-7 pieces)",
@@ -4893,7 +4893,7 @@ export const foodDatabase = [
     ]
   },
   {
-    "id": "bajra-roti",
+    "id": "bajra-roti-2",
     "name": "Bajra Roti",
     "calories": 95,
     "servingSize": "1 roti",
@@ -5231,7 +5231,7 @@ export const foodDatabase = [
     ]
   },
   {
-    "id": "sprouts-chaat",
+    "id": "sprouts-chaat-2",
     "name": "Sprouts Chaat",
     "calories": 120,
     "servingSize": "1 bowl (150g)",
@@ -5335,7 +5335,7 @@ export const foodDatabase = [
     ]
   },
   {
-    "id": "chaas",
+    "id": "chaas-2",
     "name": "Chaas",
     "calories": 35,
     "servingSize": "1 glass (200ml)",

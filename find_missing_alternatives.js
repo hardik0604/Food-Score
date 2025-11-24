@@ -1,4 +1,4 @@
-const { foodDatabase } = require('./src/data/foodDatabase.js');
+import { foodDatabase } from './src/data/foodDatabase.js';
 
 console.log('Scanning for missing alternatives...\n');
 
