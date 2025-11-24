@@ -116,33 +116,7 @@ function App() {
           </span>
         </div>
 
-        <button
-          onClick={goHome}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            padding: '0.5rem 1rem',
-            background: 'transparent',
-            border: '1px solid transparent',
-            borderRadius: '8px',
-            color: 'var(--text-secondary)',
-            fontWeight: '600',
-            cursor: 'pointer',
-            transition: 'all 0.2s'
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = 'var(--bg-subtle)';
-            e.currentTarget.style.color = 'var(--primary-dark)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = 'transparent';
-            e.currentTarget.style.color = 'var(--text-secondary)';
-          }}
-        >
-          <Home size={18} />
-          <span style={{ display: 'none', '@media (min-width: 640px)': { display: 'inline' } }}>Home</span>
-        </button>
+
       </nav>
 
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
