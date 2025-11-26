@@ -5,7 +5,19 @@ const SearchBar = ({ onSelectFood, foodDatabase }) => {
     const [query, setQuery] = useState('');
     const [suggestions, setSuggestions] = useState([]);
     const [isOpen, setIsOpen] = useState(false);
+    const [selectedIndex, setSelectedIndex] = useState(-1);
     const wrapperRef = useRef(null);
+    const listRef = useRef(null);
+    const inputRef = useRef(null);
+
+    useEffect(() => {
+        if (selectedIndex >= 0 && listRef.current) {
+            const selectedElement = listRef.current.children[selectedIndex];
+            if (selectedElement) {
+                selectedElement.scrollIntoView({ block: 'nearest' });
+            }
+        }
+    }, [selectedIndex]);
 
     const handleSearch = (e) => {
         const newQuery = e.target.value;
@@ -17,11 +29,37 @@ const SearchBar = ({ onSelectFood, foodDatabase }) => {
             );
             setSuggestions(filtered.slice(0, 8)); // Limit to 8 suggestions
             setIsOpen(true);
+            setSelectedIndex(-1);
         } else {
             setSuggestions([]);
             setIsOpen(false);
+            setSelectedIndex(-1);
         }
     };
+
+    // Global key listener for navigation
+    useEffect(() => {
+        if (!isOpen) return;
+
+        const handleGlobalKeyDown = (e) => {
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                setSelectedIndex(prev => (prev < suggestions.length - 1 ? prev + 1 : prev));
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                setSelectedIndex(prev => (prev > 0 ? prev - 1 : -1));
+            } else if (e.key === 'Enter' && selectedIndex >= 0) {
+                e.preventDefault();
+                handleSelect(suggestions[selectedIndex]);
+            } else if (e.key === 'Escape') {
+                setIsOpen(false);
+                inputRef.current?.blur();
+            }
+        };
+
+        window.addEventListener('keydown', handleGlobalKeyDown);
+        return () => window.removeEventListener('keydown', handleGlobalKeyDown);
+    }, [isOpen, suggestions, selectedIndex]);
 
     // Close suggestions when clicking outside
     useEffect(() => {
@@ -38,6 +76,7 @@ const SearchBar = ({ onSelectFood, foodDatabase }) => {
         setQuery(food.name);
         onSelectFood(food);
         setIsOpen(false);
+        setSelectedIndex(-1);
     };
 
     const clearSearch = () => {
@@ -59,21 +98,27 @@ const SearchBar = ({ onSelectFood, foodDatabase }) => {
             margin: '0 auto 3rem',
             zIndex: 10
         }}>
-            <div className="glass-card" style={{
-                padding: '1rem 1.5rem',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                transition: 'all 0.3s ease',
-                background: 'white',
-                border: '1px solid #E5E7EB'
-            }}>
+            <div
+                className="glass-card"
+                onClick={() => inputRef.current?.focus()}
+                style={{
+                    padding: '1rem 1.5rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '1rem',
+                    transition: 'all 0.3s ease',
+                    background: 'white',
+                    border: '1px solid #E5E7EB',
+                    cursor: 'text'
+                }}>
                 <Search size={24} style={{ color: 'var(--primary-green)', flexShrink: 0 }} />
                 <input
+                    ref={inputRef}
                     type="text"
                     value={query}
                     onChange={handleSearch}
                     placeholder="Search for any Indian food..."
+                    aria-label="Search for food"
                     style={{
                         background: 'transparent',
                         border: 'none',
@@ -88,6 +133,7 @@ const SearchBar = ({ onSelectFood, foodDatabase }) => {
                 {query && (
                     <button
                         onClick={clearSearch}
+                        aria-label="Clear search"
                         style={{
                             background: '#FEE2E2',
                             border: 'none',
@@ -109,21 +155,27 @@ const SearchBar = ({ onSelectFood, foodDatabase }) => {
             </div>
 
             {isOpen && suggestions.length > 0 && (
-                <div className="glass-card animate-fade-in" style={{
-                    position: 'absolute',
-                    top: 'calc(100% + 0.5rem)',
-                    left: 0,
-                    right: 0,
-                    maxHeight: '400px',
-                    overflowY: 'auto',
-                    padding: '0.5rem',
-                    zIndex: 50,
-                    background: 'white',
-                    border: '1px solid #E5E7EB'
-                }}>
+                <div
+                    ref={listRef}
+                    className="glass-card animate-fade-in"
+                    role="listbox"
+                    style={{
+                        position: 'absolute',
+                        top: 'calc(100% + 0.5rem)',
+                        left: 0,
+                        right: 0,
+                        maxHeight: '400px',
+                        overflowY: 'auto',
+                        padding: '0.5rem',
+                        zIndex: 50,
+                        background: 'white',
+                        border: '1px solid #E5E7EB'
+                    }}
+                >
                     {suggestions.map((food, index) => (
                         <div
                             key={food.id}
+                            role="option"
                             onClick={() => handleSelect(food)}
                             style={{
                                 padding: '1rem 1.25rem',
@@ -134,16 +186,10 @@ const SearchBar = ({ onSelectFood, foodDatabase }) => {
                                 alignItems: 'center',
                                 transition: 'all 0.2s ease',
                                 marginBottom: index < suggestions.length - 1 ? '0.25rem' : 0,
-                                background: 'transparent'
+                                background: index === selectedIndex ? '#F9FAFB' : 'transparent',
+                                transform: index === selectedIndex ? 'translateX(4px)' : 'translateX(0)'
                             }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.background = '#F9FAFB';
-                                e.currentTarget.style.transform = 'translateX(4px)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.background = 'transparent';
-                                e.currentTarget.style.transform = 'translateX(0)';
-                            }}
+                            onMouseEnter={() => setSelectedIndex(index)}
                         >
                             <div style={{ flex: 1 }}>
                                 <div style={{

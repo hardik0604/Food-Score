@@ -1,8 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Activity, AlertTriangle, CheckCircle, ThumbsDown, ThumbsUp, Flame, Zap, TrendingUp, Award, Target, ArrowRight, X } from 'lucide-react';
 
 const NutritionCard = ({ food, onSelectFood, foodDatabase }) => {
     const [comparisonFood, setComparisonFood] = useState(null);
+
+    useEffect(() => {
+        const handleEsc = (e) => {
+            if (e.key === 'Escape') {
+                setComparisonFood(null);
+            }
+        };
+        if (comparisonFood) {
+            document.addEventListener('keydown', handleEsc);
+        }
+        return () => document.removeEventListener('keydown', handleEsc);
+    }, [comparisonFood]);
 
     if (!food) return null;
 
@@ -360,6 +372,8 @@ const NutritionCard = ({ food, onSelectFood, foodDatabase }) => {
                         onClick={(e) => e.stopPropagation()}>
                         <button
                             onClick={() => setComparisonFood(null)}
+                            aria-label="Close comparison"
+                            autoFocus
                             style={{
                                 position: 'absolute',
                                 top: '1.5rem',

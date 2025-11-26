@@ -86,14 +86,19 @@ function App() {
         zIndex: 100,
         boxShadow: '0 1px 2px rgba(0,0,0,0.02)'
       }}>
-        <div
+        <button
           onClick={goHome}
           style={{
             display: 'flex',
             alignItems: 'center',
             gap: '0.75rem',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            background: 'none',
+            border: 'none',
+            padding: 0,
+            fontFamily: 'inherit'
           }}
+          aria-label="Go to home"
         >
           <div style={{
             width: '36px',
@@ -114,7 +119,7 @@ function App() {
           }}>
             FitScore India
           </span>
-        </div>
+        </button>
 
 
       </nav>
