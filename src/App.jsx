@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import SearchBar from './components/SearchBar';
-import NutritionCard from './components/NutritionCard';
+const NutritionCard = lazy(() => import('./components/NutritionCard'));
 import { Activity, TrendingUp, Zap, Home } from 'lucide-react';
 
 function App() {
@@ -185,7 +185,15 @@ function App() {
 
         {selectedFood ? (
           <div style={{ marginTop: '2rem' }}>
-            <NutritionCard food={selectedFood} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
+            <Suspense fallback={
+              <div style={{ display: 'flex', justifyContent: 'center', padding: '2rem' }}>
+                <div className="spinner-border text-primary" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+              </div>
+            }>
+              <NutritionCard food={selectedFood} onSelectFood={setSelectedFood} foodDatabase={foodDatabase} />
+            </Suspense>
           </div>
         ) : (
           <div className="animate-fade-in" style={{
