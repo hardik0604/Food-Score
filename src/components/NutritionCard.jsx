@@ -19,9 +19,9 @@ const NutritionCard = ({ food, onSelectFood, foodDatabase }) => {
     if (!food) return null;
 
     const getScoreColor = (score) => {
-        if (score >= 70) return { primary: 'var(--success)', secondary: '#90A955', bg: '#E6F4EA', text: 'var(--success)' };
-        if (score >= 40) return { primary: 'var(--warning)', secondary: '#F4A261', bg: '#FEF3C7', text: '#D97706' };
-        return { primary: 'var(--danger)', secondary: '#EF4444', bg: '#FEE2E2', text: 'var(--danger)' };
+        if (score >= 70) return { primary: 'var(--success)', bg: '#E6F4EA', text: 'var(--success)' };
+        if (score >= 40) return { primary: 'var(--warning)', bg: '#FEF3C7', text: 'var(--warning)' };
+        return { primary: 'var(--danger)', bg: '#FEE2E2', text: 'var(--danger)' };
     };
 
     const getVerdictIcon = (verdict) => {

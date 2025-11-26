@@ -3,17 +3,21 @@
 :root {
   /* Organic Editorial Palette */
   --primary-dark: #2D3142;
-  --primary-green: #4F772D;
+  --primary-green: #3A5A20;
+  /* Darkened for better contrast */
   /* Forest Green */
-  --primary-sage: #90A955;
-  --accent-terracotta: #E07A5F;
+  --primary-sage: #5D7030;
+  /* Darkened for better contrast */
+  --accent-terracotta: #9C4221;
+  /* Further darkened for contrast on light bg */
   --accent-sand: #F2CC8F;
   --accent-blush: #F4F1DE;
 
   /* Functional Colors */
-  --success: #4F772D;
-  --warning: #E07A5F;
-  --danger: #D62828;
+  --success: #3A5A20;
+  --warning: #9C4221;
+  --danger: #B91C1C;
+  /* Darkened for contrast on light bg */
 
   /* Backgrounds */
   --bg-main: #FDFBF7;
@@ -22,9 +26,12 @@
   --bg-subtle: #F4F1DE;
 
   /* Text */
-  --text-primary: #2D3142;
-  --text-secondary: #4F5D75;
-  --text-muted: #9CA3AF;
+  --text-primary: #1F222E;
+  /* Darkened */
+  --text-secondary: #374151;
+  /* Darkened */
+  --text-muted: #6B7280;
+  /* Darkened to pass AA */
 
   /* Shadows */
   --shadow-sm: 0 2px 4px rgba(45, 49, 66, 0.05);
