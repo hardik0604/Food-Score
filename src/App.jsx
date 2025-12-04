@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Suspense, lazy } from 'react';
 import SearchBar from './components/SearchBar';
 const NutritionCard = lazy(() => import('./components/NutritionCard'));
-import { Activity, TrendingUp, Zap, Home } from 'lucide-react';
+import { Activity, TrendingUp, Zap } from 'lucide-react';
 
 function App() {
   const [selectedFood, setSelectedFood] = useState(null);
@@ -265,6 +265,39 @@ function App() {
           paddingBottom: '2rem'
         }}>
           <p>Nutritional data based on standard restaurant servings • For informational purposes only</p>
+          <div style={{ marginTop: '1.5rem' }}>
+            <button
+              onClick={() => {
+                const subject = encodeURIComponent('Food Request - FitScore India');
+                const body = encodeURIComponent('Hi,\n\nI would like to request the following food item to be added to the database:\n\nFood Name: \nDescription: \n\nThank you!');
+                window.location.href = `mailto:prakashhardik06@gmail.com?subject=${subject}&body=${body}`;
+              }}
+              style={{
+                background: 'var(--primary-green)',
+                color: 'white',
+                border: 'none',
+                borderRadius: '100px',
+                padding: '0.75rem 1.5rem',
+                fontSize: '0.9rem',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = '#2d4518';
+                e.currentTarget.style.transform = 'translateY(-2px)';
+                e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = 'var(--primary-green)';
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+              }}
+            >
+              📝 Can't find your food? Request it here
+            </button>
+          </div>
         </footer>
       </div>
     </div>
