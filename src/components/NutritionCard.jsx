@@ -177,6 +177,9 @@ const NutritionCard = ({ food, onSelectFood, foodDatabase }) => {
                             background: '#0284C7'
                         }} />
                     </div>
+                    <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+                        {Math.round((food.macros.protein * 4 / food.calories) * 100)}% of calories
+                    </div>
                 </div>
 
                 <div className="glass-card" style={{ background: 'white' }}>
@@ -201,6 +204,9 @@ const NutritionCard = ({ food, onSelectFood, foodDatabase }) => {
                             background: '#D97706'
                         }} />
                     </div>
+                    <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+                        {Math.round((food.macros.carbs * 4 / food.calories) * 100)}% of calories
+                    </div>
                 </div>
 
                 <div className="glass-card" style={{ background: 'white' }}>
@@ -224,6 +230,64 @@ const NutritionCard = ({ food, onSelectFood, foodDatabase }) => {
                             width: `${(food.macros.fat / macroTotal) * 100}%`,
                             background: '#9333EA'
                         }} />
+                    </div>
+                    <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+                        {Math.round((food.macros.fat * 9 / food.calories) * 100)}% of calories
+                    </div>
+                </div>
+            </div>
+
+            {/* Burn-off Time Section */}
+            <div className="glass-card" style={{ marginBottom: '2rem', background: 'white' }}>
+                <h3 style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.75rem',
+                    marginBottom: '1.5rem',
+                    color: 'var(--primary-dark)'
+                }}>
+                    <Flame size={28} style={{ color: 'var(--accent-terracotta)' }} />
+                    Time to Burn Off
+                </h3>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem' }}>
+                    <div style={{
+                        padding: '1.5rem',
+                        background: '#FFF7ED',
+                        borderRadius: '12px',
+                        textAlign: 'center',
+                        border: '1px solid #FFEDD5'
+                    }}>
+                        <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>🚶</div>
+                        <div style={{ fontWeight: '700', color: '#9A3412', fontSize: '1.25rem', marginBottom: '0.25rem' }}>
+                            {Math.round((food.calories / 250) * 60)} min
+                        </div>
+                        <div style={{ color: '#9A3412', fontSize: '0.9rem', opacity: 0.8 }}>Walking</div>
+                    </div>
+                    <div style={{
+                        padding: '1.5rem',
+                        background: '#EFF6FF',
+                        borderRadius: '12px',
+                        textAlign: 'center',
+                        border: '1px solid #DBEAFE'
+                    }}>
+                        <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>🏃</div>
+                        <div style={{ fontWeight: '700', color: '#1E40AF', fontSize: '1.25rem', marginBottom: '0.25rem' }}>
+                            {Math.round((food.calories / 600) * 60)} min
+                        </div>
+                        <div style={{ color: '#1E40AF', fontSize: '0.9rem', opacity: 0.8 }}>Running</div>
+                    </div>
+                    <div style={{
+                        padding: '1.5rem',
+                        background: '#F0FDF4',
+                        borderRadius: '12px',
+                        textAlign: 'center',
+                        border: '1px solid #DCFCE7'
+                    }}>
+                        <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>🚴</div>
+                        <div style={{ fontWeight: '700', color: '#166534', fontSize: '1.25rem', marginBottom: '0.25rem' }}>
+                            {Math.round((food.calories / 450) * 60)} min
+                        </div>
+                        <div style={{ color: '#166534', fontSize: '0.9rem', opacity: 0.8 }}>Cycling</div>
                     </div>
                 </div>
             </div>
