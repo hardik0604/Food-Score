@@ -124,7 +124,7 @@ function App() {
 
       </nav>
 
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
+      <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
         {!selectedFood && (
           <header style={{ textAlign: 'center', marginBottom: '3rem', paddingTop: '2rem' }}>
             <div className="animate-fade-in" style={{
@@ -299,7 +299,7 @@ function App() {
             </button>
           </div>
         </footer>
-      </div>
+      </main>
     </div>
   );
 }
